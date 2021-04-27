@@ -1,0 +1,40 @@
+a
+  cursor: pointer
+
+.boton
+  background-color: $btn-bg-color
+  color: $btn-color !important
+  padding: 10px 15px
+  border-radius: $base-border-radius
+  display: inline-block
+  display: inline-flex
+  align-items: center
+  transform: scale(1)
+
+  span, i
+    color: $btn-color
+
+  span + i
+    margin-left: 8px
+
+  &:hover
+    color: $btn-color
+    transform: scale(1.05)
+
+  &--sm
+    @extend .boton
+    padding: 5px 10px
+
+  &--b
+    background-color: #4C4989
+    span, i
+      color: $white
+    &:active, &:focus, &:hover
+      background-color: #4C4989
+
+  &--b_1
+    background-color: #FFD947
+    span, i
+      color: #4C4989
+    &:active, &:focus, &:hover
+      background-color: #FFD947

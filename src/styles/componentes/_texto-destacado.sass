@@ -1,0 +1,132 @@
+.bloque-texto-a
+  background-color: #ACEDFF
+  position: relative
+  &:before
+    content: ''
+    display: block
+    background-color: #ACEDFF
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 45%
+
+  & > div
+    position: relative
+
+  &__texto
+    background-color: $white
+
+  p
+    margin: 0
+
+
+.bloque-texto-b
+  position: relative
+  &:before
+    content: ''
+    display: block
+    background-color: #EEEEEE
+    position: absolute
+    top: 40%
+    bottom: 0
+    left: 35%
+    right: 0
+  & > div
+    position: relative
+  &__texto
+    &:before, &:after
+      content: ''
+      display: inline-block
+      width: 36px
+      height: 31px
+      flex-shrink: 0
+      background-image: url('../assets/componentes/icon-bloque-texto-c.svg')
+      background-repeat: no-repeat
+    &:before
+      margin-right: 15px
+      transform: rotate(180deg)
+    &:after
+      margin-left: 15px
+      align-self: flex-end
+
+
+
+.bloque-texto-c
+  
+  &:before, &:after
+    content: ''
+    display: block
+
+  &:before
+    width: 36px
+    height: 36px
+    background-image: url('../assets/componentes/icon-bloque-texto-c.svg')
+    background-repeat: no-repeat
+  
+  &:after
+    width: 30px
+    height: 30px
+    background-color: $color-curso-b
+    position: relative
+    left: calc(100% - 30px)
+
+
+.bloque-texto-d
+  
+  &:before, &:after
+    content: ''
+    display: block
+
+  &:before
+    width: 36px
+    height: 36px
+    background-image: url('../assets/componentes/icon-bloque-texto-d.svg')
+    background-repeat: no-repeat
+  
+  &:after
+    width: 30px
+    height: 30px
+    background-color: #FFDD4A
+    position: relative
+    left: calc(100% - 30px)
+
+.bloque-texto-e
+  background-color: #DAD6FF
+  position: relative
+  &:before
+    content: ''
+    display: block
+    background-color: #DAD6FF
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 45%
+  & > div
+    position: relative
+
+  &__texto
+    background-color: $white
+
+  p
+    margin: 0
+
+.bloque-texto-f
+  
+  &:before, &:after
+    content: ''
+    display: block
+
+  &:before
+    width: 36px
+    height: 36px
+    background-image: url('../assets/componentes/icon-bloque-texto-f.svg')
+    background-repeat: no-repeat
+  
+  &:after
+    width: 30px
+    height: 30px
+    background-color: #5ADBFF
+    position: relative
+    left: calc(100% - 30px)
