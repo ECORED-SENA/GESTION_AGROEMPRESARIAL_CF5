@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1239.785" height="455.45" viewBox="0 0 1239.785 455.45">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_52629" data-name="Rectángulo 52629" width="1239.785" height="455.45" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f6" stop-opacity="0"/>
+      <stop offset="1" stop-color="#eae8e8"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_166799" data-name="Grupo 166799" clip-path="url(#clip-path)">
+    <g id="Grupo_166798" data-name="Grupo 166798" transform="translate(0 96.324)">
+      <g id="Grupo_166797" data-name="Grupo 166797">
+        <path id="Trazado_255989" data-name="Trazado 255989" d="M-85.98-1559.528s-79.941-19.673-258.876,142.937-578.73-66.92-669.586-92.991-252.707,5.262-311.323,72.739V246.209H-85.98Z" transform="translate(1325.765 1560.275)" opacity="0.531" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Trazado_255990" data-name="Trazado 255990" d="M-85.98-1560.275s-208.5,270.542-500.835,141.2c-152.015-67.256-308.3-7.7-426.6,0-109.668,7.134-181.584-37.058-312.349-100.793v1731.9H-85.98Z" transform="translate(1325.765 1595.661)" opacity="0.63" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+    </g>
+  </g>
+</svg>
