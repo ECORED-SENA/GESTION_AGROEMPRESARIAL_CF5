@@ -91,7 +91,7 @@
 
     p En caso de no poder realizar la separación del ternero y la madre existen unos elementos usados principalmente en ganadería, ya que por consecuencias de la separación el ternero como la madre se ven afectados dejando en ocasiones hasta de alimentarse, esto afectando el sistema de producción, en este caso se utilizan estas herramientas para evitar el estrés del animal, por medio de su uso en el ternero no permite mamar al ternero y así obligándolo a consumir alimento balanceado o forraje según sea su caso y la madre al tener el ternero cerca de ella se ve estimulada su producción lechera.
 
-    p.mb-4 A continuación, se puede ver dos herramientas utilizadas:
+    p.text-bold.mb-4 A continuación, se puede ver dos herramientas utilizadas:
 
     .row.mb-5
       .col-lg-6
@@ -141,9 +141,11 @@
       .col-lg-4 
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema7/img14.svg')
+        figcaption.color_enlace Nota: #[a(href="https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf" target='_blank') https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf]  
       .col-lg-4 
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema7/img15.svg')
+        figcaption.color_enlace Nota: #[a(href="https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf" target='_blank') https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf]  
 
     p.mb-5 Las técnicas de descorne, radican en el método que se va a aplicar para realizar el descornado existen diferentes métodos con diferentes aplicaciones y usos, pero con el mismo resultado final que es la eliminación de los cuernos en los animales. Los métodos más utilizados en las producciones son:
 

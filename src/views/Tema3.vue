@@ -136,6 +136,8 @@
     #t_3_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
         h2 3.2 Programas de certificación
 
+    p.mb-5 Para hacer la implementación de las buenas prácticas ganaderas se debe realizar una planeación previa por escrito relacionando las actividades específicas de la unidad productiva, con el fin de ser utilizada como guía de cada proceso y este protocolo pueda ser verificado a través de una plantilla, la cual corrobore que la esta ha sido realizada de forma correcta. En general, los ítems que se deben tener en cuenta son:
+
     .row.justify-content-center
       .col-lg-9
         .tarjeta-avatar-b.mb-5
@@ -262,119 +264,407 @@
             td.h5(colspan="3") EQUINOS Res. 7953 / 2017
           tr
             td(colspan="3")(rowspan="6") <b>PROTOCOLOS O PROCEDIMIENTOS</b>
-            td(colspan="3") Manejo integral de plagas.
-            td(colspan="3") Manejo integral de plagas. 
-            td(colspan="3") Manejo integral de plagas. 
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Manejo integral de plagas.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Manejo integral de plagas. 
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Manejo integral de plagas. 
           tr
-            td(colspan="3") Cuarentena y adquisición de animales.
-            td(colspan="3") Cuarentena, adquisición de animales, ingreso y aislamiento de reemplazo.
-            td(colspan="3") Cuarentena y adquisición de animales.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Cuarentena y adquisición de animales.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Cuarentena, adquisición de animales, ingreso y aislamiento de reemplazo.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Cuarentena y adquisición de animales.
           tr 
-            td(colspan="3") Procedimiento de identificación y atención a cambios de coportamiento -bienestar animal.
-            td(colspan="3") Procedimiento de identificación y atención a cambios de comportamiento y adaptación o aclimatación - bienestar animal.
-            td(colspan="3") Procedimiento de identificación y atención a cambios de comportamiento - bienestar animal.            
-          tr
-            td(colspan="3") Plan sanitario (manejo y aislamiento anímales enfermos).
-            td(colspan="3") Plan sanitario y protocolo de bioseguridad.
-            td(colspan="3") Plan sanitario.  
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Procedimiento de identificación y atención a cambios de coportamiento -bienestar animal.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Procedimiento de identificación y atención a cambios de comportamiento y adaptación o aclimatación - bienestar animal.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Procedimiento de identificación y atención a cambios de comportamiento - bienestar animal.            
           tr
             td(colspan="3") 
-            td(colspan="3") Ingreso y manejo de material genético.
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Plan sanitario (manejo y aislamiento anímales enfermos).
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Plan sanitario y protocolo de bioseguridad.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Plan sanitario.  
+          tr
+            td(colspan="3") 
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Ingreso y manejo de material genético.
             td(colspan="3") 
           tr 
             td(colspan="3") 
-            td(colspan="3") Limpieza de áreas y utensilios.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Limpieza de áreas y utensilios.
             td(colspan="3") 
           tr
             td(colspan="3")(rowspan="6") <b>DOCUMENTOS</b>
-            td(colspan="3") Registro Único de Vacunación RUV.
-            td(colspan="3") Registro Único de Vacunación RUV.
-            td(colspan="3") Registro Único de Vacunación RUV.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Registro Único de Vacunación RUV.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Registro Único de Vacunación RUV.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Registro Único de Vacunación RUV.
           tr
-            td(colspan="3") Prescripciones medicamentos veterinarios - fórmula médica.
-            td(colspan="3") Prescripciones medicamentos veterinarios - fórmula médica.
-            td(colspan="3") Prescripciones medicamentos veterinarios - fórmula médica.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Prescripciones medicamentos veterinarios - fórmula médica.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Prescripciones medicamentos veterinarios - fórmula médica.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Prescripciones medicamentos veterinarios - fórmula médica.
           tr 
-            td(colspan="3") Instructivo manejo sanitario enfermedades de control oficial.
-            td(colspan="3") Instructivo manejo sanitario enfermedades de control oficial.
-            td(colspan="3") Instructivo manejo sanitario enfermedades de control oficial.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Instructivo manejo sanitario enfermedades de control oficial.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Instructivo manejo sanitario enfermedades de control oficial.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Instructivo manejo sanitario enfermedades de control oficial.
           tr
-            td(colspan="3") Resultado del análisis del agua.
-            td(colspan="3") Autorización aplicación de medicamentos y pequeñas intervenciones quirúrgicas.
-            td(colspan="3") Examen médico personal.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Resultado del análisis del agua.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Autorización aplicación de medicamentos y pequeñas intervenciones quirúrgicas.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Examen médico personal.
           tr
-            td(colspan="3") Examen médico personal.
-            td(colspan="3") Resultado del análisis del agua.
-            td(colspan="3") Certificados de capacitación.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Examen médico personal.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Resultado del análisis del agua.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Certificados de capacitación.
           tr
-            td(colspan="3") Certificados de capacitación.
-            td(colspan="3") Certificados de capacitación.
-            td(colspan="3") Seguridad social.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Certificados de capacitación.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Certificados de capacitación.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Seguridad social.
           tr
             td(colspan="3")(rowspan="6") <b>REGISTROS</b>
-            td(colspan="3") Ingresos de personas y vehículos
-            td(colspan="3") Ingresos de personas y vehículos
-            td(colspan="3") Ingresos de personas y vehículos
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Ingresos de personas y vehículos
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Ingresos de personas y vehículos
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Ingresos de personas y vehículos
           tr
-            td(colspan="3") Diagnóstico de enfermedades veterinarias y mortalidad.
-            td(colspan="3") Diagnóstico de enfermedades veterinarias y mortalidad.
-            td(colspan="3") Diagnóstico de enfermedades veterinarias y mortalidad.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Diagnóstico de enfermedades veterinarias y mortalidad.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Diagnóstico de enfermedades veterinarias y mortalidad.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Diagnóstico de enfermedades veterinarias y mortalidad.
           tr 
-            td(colspan="3") Aplicación de tratamiento o medicamentos veterinarios.
-            td(colspan="3") Aplicación de tratamiento o medicamentos veterinarios.
-            td(colspan="3") Aplicación de tratamiento o medicamentos veterinarios.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Aplicación de tratamiento o medicamentos veterinarios.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Aplicación de tratamiento o medicamentos veterinarios.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Aplicación de tratamiento o medicamentos veterinarios.
           tr
-            td(colspan="3") Manejo de potreros.
-            td(colspan="3") Individual o ficha por animal o lote.
-            td(colspan="3") Inventario de insumos pecuario y agrícolas.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Manejo de potreros.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Individual o ficha por animal o lote.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Inventario de insumos pecuario y agrícolas.
           tr 
             td(colspan="3") 
-            td(colspan="3") Inventario de productos y biológicos veterinarios.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Inventario de productos y biológicos veterinarios.
             td(colspan="3") 
           tr
             td(colspan="3") 
-            td(colspan="3") Inventario de alimentos y materias primas.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Inventario de alimentos y materias primas.
             td(colspan="3") 
           tr
             td(colspan="3")(rowspan="10") <b>ACTIVIDADES DE MANEJO</b>
-            td(colspan="3") Delimitación del predio y disposición áreas.
-            td(colspan="3") Delimitación del predio y disposición áreas.
-            td(colspan="3") Delimitación del predio y disposición áreas.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Delimitación del predio y disposición áreas.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Delimitación del predio y disposición áreas.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Delimitación del predio y disposición áreas.
           tr
-            td(colspan="3") Disposición residuos.
-            td(colspan="3") Disposición residuos.
-            td(colspan="3") Disposición residuos.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Disposición residuos.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Disposición residuos.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Disposición residuos.
           tr 
-            td(colspan="3") Protección y conservación de fuentes de agua.
-            td(colspan="3") Protección y conservación de fuentes de agua.
-            td(colspan="3") Protección y conservación de fuentes de agua.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Protección y conservación de fuentes de agua.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Protección y conservación de fuentes de agua.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Protección y conservación de fuentes de agua.
           tr
-            td(colspan="3") Plagas y roedores.
-            td(colspan="3") Plagas y roedores.
-            td(colspan="3") Plagas y roedores.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Plagas y roedores.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Plagas y roedores.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Plagas y roedores.
           tr
-            td(colspan="3") Manejo sanitario.
-            td(colspan="3") Manejo sanitario.
-            td(colspan="3") Manejo sanitario.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Manejo sanitario.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Manejo sanitario.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Manejo sanitario.
           tr
-            td(colspan="3") Medicamentos veterinarios.
-            td(colspan="3") Medicamentos veterinarios.
-            td(colspan="3") Medicamentos veterinarios.        
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Medicamentos veterinarios.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Medicamentos veterinarios.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Medicamentos veterinarios.        
           tr 
-            td(colspan="3") Alimentación animal.
-            td(colspan="3") Alimentación animal e insumos agropecuarios. 
-            td(colspan="3") Alimentación animal e insumos agropecuarios. 
-          tr
-            td(colspan="3") Elementos de bioseguridad, elementos de protección personal, seguridad y salud en el trabajo.
-            td(colspan="3") Bioseguridad.
-            td(colspan="3") Elementos de bioseguridad, elementos de protección personal, seguridad y salud en las labores del trabajo.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Alimentación animal.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Alimentación animal e insumos agropecuarios. 
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Alimentación animal e insumos agropecuarios. 
           tr
             td(colspan="3") 
-            td(colspan="3") Sacrificio humanitario.
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Elementos de bioseguridad, elementos de protección personal, seguridad y salud en el trabajo.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Bioseguridad.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Elementos de bioseguridad, elementos de protección personal, seguridad y salud en las labores del trabajo.
+          tr
+            td(colspan="3") 
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Sacrificio humanitario.
             td(colspan="3") 
           tr
             td(colspan="3") 
-            td(colspan="3") Elementos e implementos de bioseguridad, elementos de protección personal, seguridad y salud en las labores del trabajo.
+            td(colspan="3") 
+              ul.lista-ul--color.mb_1
+                li.mb_1 
+                  i.fas.fa-angle-right
+                  | Elementos e implementos de bioseguridad, elementos de protección personal, seguridad y salud en las labores del trabajo.
             td(colspan="3") 
             
 

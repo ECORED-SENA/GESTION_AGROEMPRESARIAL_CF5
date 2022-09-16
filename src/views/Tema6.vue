@@ -121,7 +121,7 @@
                 | Fecha de caducidad. 
               li 
                 .lista-ol--cuadro__vineta
-                  span 5
+                  span 6
                 | Información sobre la especie a la que está destinado. 
         p.mb-5 Por medio del etiquetado, las fechas de fabricación, lista de ingredientes deberá ser posible generar una trazabilidad de los alimentos o materias primas utilizadas mediante el manejo adecuado de registros y muestras tomadas en caso de generar una alteración o enfermedad en el animal, tal como se ve en el numeral a y b que se presentan a continuación:
 
@@ -172,7 +172,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6
         .bg_7.p-2
-          p.m-0.text-center Procesos que alteran la inocuidad de los alimentos  
+          p.m-0.text-center.text-bold Procesos que alteran la inocuidad de los alimentos  
     .row.justify-content-center.mb-5
       .col-lg-8
         figure(data-aos="fade-down")
@@ -186,9 +186,9 @@
     p.mb-5 El personal juega un papel fundamental en la elaboración y manipulación de los alimentos balanceados, de allí la importancia de la higiene y conocimiento de manipulación animal bajo estándares de limpieza y desinfección donde el personal debe utilizar siempre todos los elementos de protección requeridos para la labor que está realizando donde la empresa pecuaria será responsable de la capacitación en los temas de higiene, manipulación de alimentos, seguridad y elementos de protección personal aparte de las especificaciones de las funciones a realizar.
 
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6.col-xl-7.col-xxl-6
         .bg_7.p-2
-          p.m-0.text-center Acciones del personal en pro de las buenas prácticas de alimentación animal
+          p.m-0.text-center.text-bold  Acciones del personal en pro de las buenas prácticas de alimentación animal
     .row.justify-content-center.mb-5
       .col-lg-8
         figure(data-aos="fade-down")
@@ -506,7 +506,7 @@
     ol.lista-ol--cuadro
       li 
         .lista-ol--cuadro__vineta
-        h4 Programación de actividades
+        h4 Disponibilidad de agua
     
     .row.mb-5
       .col-lg-7
@@ -548,7 +548,7 @@
         .col-md-6.mb-4.mb-md-0
           p.ms-2 Los diferentes estados fisiológicos del animal determinan el consumo de agua, generalmente es mucho mayor el consumo de agua en animales jóvenes y con niveles productivos altos que en animales viejos y posiblemente con niveles de producción con tendencia a bajar. De igual manera los procesos de gestación, lactancia y crecimiento. 
           p.ms-2 Necesidades de agua según especie animal en condiciones normales referente a su peso vivo:
-          .tabla-a.color-primario
+          .tabla-a.color-primario.mt-2.border_tabla1.mb-5
             table
               thead
                 tr

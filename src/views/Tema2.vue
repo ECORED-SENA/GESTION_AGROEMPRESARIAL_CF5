@@ -164,7 +164,7 @@
               .row.justify-content-around.align-items-center
                 .col.mb-3.mb-sm-0.col-lg-8
                   p <b>Construcción adecuada de toriles, mangas y callejones para vacunos</b>
-                  p.text-white Amplíe la información sobre instalaciones pecuarias, visualizando los videos que encuentra en los materiales complementarios, denominados:
+                  p.text-white Amplíe la información sobre instalaciones pecuarias, visualizando los videos que encuentra en los materiales complementarios.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Tabla_6.pdf')" target="_blank")
                     span Descargar
@@ -815,14 +815,8 @@
                           | Días
                         li.mb_1 
                           i.fas.fa-angle-right
-                          | Días
-
-                      
-                        
-
-                                  
-            
-            
+                          | Días                                    
+                                                        
          
 
 </template>

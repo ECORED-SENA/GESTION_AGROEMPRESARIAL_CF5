@@ -201,7 +201,7 @@
                   p <b>Sistema de alertas tempranas</b>
                   p.text-white Instituto Colombiano Agropecuario. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Tabla_6.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Sistema-de-alertas-tempranas.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -327,7 +327,10 @@
             i.fas.fa-check
             p <b>Intravaginal e Intrauterina:</b> con la ayuda de un catéter, se aplica el medicamento directamente por la vagina del animal o en el caso de ser intrauterina, se continúa introduciendo el catéter pasando por el cuello uterino hasta llegar al útero y poder depositar el medicamento allí. Esta técnica se utiliza principalmente en casos de metritis o infecciones vaginales. 
 
-    p La siguiente vía es la parenteral y se compone de varios elementos que se deben tener en cuenta. Esta vía implica la ruptura de las barreras del organismo, la piel y las mucosas para depositar las sustancias en tejidos o cavidades internas del organismo inyectando el medicamento a través de una punción utilizando aguja y jeringa desechables. A continuación, se explican varias vías de aplicación de medicamentos parenteral:
+    p.mb-5 La siguiente vía es la parenteral y se compone de varios elementos que se deben tener en cuenta. Esta vía implica la ruptura de las barreras del organismo, la piel y las mucosas para depositar las sustancias en tejidos o cavidades internas del organismo inyectando el medicamento a través de una punción utilizando aguja y jeringa desechables. A continuación, se explican varias vías de aplicación de medicamentos parenteral:
+
+    .titulo-quinto.color-acento-contenido
+      h4.mb-4 Ángulos de aplicación Parenteral
 
     ImagenInfograficaB.color-primario.mb-5
       template(v-slot:imagen)

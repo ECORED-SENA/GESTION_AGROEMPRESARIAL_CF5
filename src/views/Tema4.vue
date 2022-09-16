@@ -34,7 +34,8 @@
 
       .row.justify-content-center.mb-4
         .col-lg-10
-          .cajon.color-acento-contenido.bg_color1.p-3.mb-4            
+          .cajon.color-acento-contenido.bg_color1.p-3.mb-4
+            h4.ms-2 Diseño del programa de producción           
             p.m-0.ms-2 El correcto diseño del programa de producción permite el uso eficiente de los recursos y posibilita el cumplimiento de los plazos de entrega, lo cual es de suma importancia cuando se tienen compromisos contractuales donde el factor tiempo es prioritario. 
 
       p.mb-5 Los elementos básicos del programa de producción se pueden agrupar así:        
@@ -99,10 +100,6 @@
                 .col-lg-9(data-aos="fade-left")
                   figure
                     img.img-t.mx-auto(src='@/assets/curso/tema4/img13.svg', alt='Texto que describa la imagen')
-
-
-
-
           
 
 

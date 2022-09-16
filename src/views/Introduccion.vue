@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1(data-aos="fade-right") Introducción
 
-    p.mb-4 Aquí comienza el estudio del componente <b>“Programación</b> de la producción pecuaria”. Esperamos tener una experiencia de aprendizaje satisfactoria; para ello, inicie visualizando el recurso que se propone a continuación. <b>¡Adelante!</b>
+    p.mb-4 Aquí comienza el estudio del componente <b>“Programación de la producción pecuaria”</b>. Esperamos tener una experiencia de aprendizaje satisfactoria; para ello, inicie visualizando el recurso que se propone a continuación. <b>¡Adelante!</b>
 
     figure
     .video
