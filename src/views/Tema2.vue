@@ -113,11 +113,10 @@
     p Visualice con atención el vídeo que se muestra enseguida; entérese de las generalidades de los principales componentes de un sistema pecuario. Procure llevar registro de lo más destacado en su libreta personal de apuntes:
 
     figure
-    .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    figcaption.mb-5 Video: Leyenda del video
+    .video.mb-5
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/3hmUzSEuIsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p En relación con los componentes de un sistema de producción pecuario, tenga en cuenta:
+    p.mb-4 En relación con los componentes de un sistema de producción pecuario, tenga en cuenta:
 
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Especies pecuarias")
@@ -166,9 +165,9 @@
                   p <b>Construcción adecuada de toriles, mangas y callejones para vacunos</b>
                   p.text-white Amplíe la información sobre instalaciones pecuarias, visualizando los videos que encuentra en los materiales complementarios.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Tabla_6.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+                  a.boton.color-acento-botones(href="https://www.youtube.com/embed/OQH0Tsy9NyU" target="_blank")
+                    span Ver video
+                    i.fas.fa-link
                     
     .row
       .col-lg-6
