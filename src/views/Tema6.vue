@@ -265,7 +265,7 @@
           p.ms-2 La acomodación de las materias primas se da por su orden de llegada almacenando productos de una misma referencia o lote así, generando una gran cantidad de grupos como materias primas existan en el almacén, no se deja espacio entre referencias, logrando el llenado del almacén en su gran totalidad posee características similares al almacenamiento ordenado, pero con la diferencia de que no de dejan espacios entre referencias.      
         .col-md-4
           figure
-            img(src='@/assets/curso/tema6/img16.png', alt='Texto que describa la imagen')
+            img.img-t(src='@/assets/curso/tema6/img16.png', alt='Texto que describa la imagen')
 
       .row.justify-content-around(titulo="Almacenamiento o acopio a granel")
         .col-md-6.mb-4.mb-md-0
@@ -273,7 +273,7 @@
           p.ms-2 Teniendo en cuenta lo anterior, se deben tener unos lineamientos o condiciones básicas de almacenamiento en donde:     
         .col-md-4
           figure.mb-4
-            img(src='@/assets/curso/tema6/img17.png', alt='Texto que describa la imagen')
+            img.img-t(src='@/assets/curso/tema6/img17.png', alt='Texto que describa la imagen')
       
         .row.justify-content-center
           .col-lg-11
@@ -573,8 +573,6 @@
             img.img-t.mx-auto(src='@/assets/curso/tema6/img38.png', alt='Texto que describa la imagen')  
           p La disponibilidad del agua en los diferentes sistemas productivos pecuarios como es un recurso de vital importancia, de necesidad básica y de un acceso fácil para la gran mayoría de sistemas productivos es un recurso que se ofrece de manera a voluntad del animal, que permanece disponible las 24 horas en condiciones normales y que el animal cuando tiene la necesidad de consumir lo hace. 
        
-
-
 
 </template>
 

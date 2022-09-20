@@ -155,19 +155,20 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-12
-        .tarjeta.color-acento-contenido.p-4.shadow.p-3.mb-5
+        .tarjeta.color12.p-4.shadow.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2
-              img.img-t.mx-auto(src="@/assets/curso/tema2/img06.svg")
-            .col
-              .row.justify-content-around.align-items-center
-                .col.mb-3.mb-sm-0.col-lg-8
-                  p <b>Construcción adecuada de toriles, mangas y callejones para vacunos</b>
-                  p.text-white Amplíe la información sobre instalaciones pecuarias, visualizando los videos que encuentra en los materiales complementarios.
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.youtube.com/embed/OQH0Tsy9NyU" target="_blank")
-                    span Ver video
-                    i.fas.fa-link
+              img.img-t.mx-auto(src="@/assets/curso/tema2/img13.svg")          
+            .col.mb-3.mb-sm-0.col-lg-10
+              p.ms-0.ms-lg-3 <b>Construcción adecuada de toriles, mangas y callejones para vacunos</b>
+              p.ms-0.ms-lg-3 Amplíe la información sobre instalaciones pecuarias, visualizando los videos que encuentra en los materiales complementarios.
+              .row
+                .col-auto
+                  a.anexo(href="https://www.youtube.com/embed/OQH0Tsy9NyU" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-link.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> Construcción adecuada de toriles, mangas y callejones para vacunos      
                     
     .row
       .col-lg-6

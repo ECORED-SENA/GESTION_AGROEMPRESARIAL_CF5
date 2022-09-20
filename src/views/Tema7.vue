@@ -94,12 +94,18 @@
     p.text-bold.mb-4 A continuación, se puede ver dos herramientas utilizadas:
 
     .row.mb-5
+      .col-lg-6.mb-4.mb-lg-0
+        figure
+          img.img-t(src='@/assets/curso/tema7/img10.png')
+        .bg_16.p-4.px-5
+          h3 Bozal
+          p Se utiliza para diversas situaciones de manejo animal, así como para el destete de los animales evitando el mamar de los terneros.             
       .col-lg-6
         figure
-          img.img-t.mx-auto(src='@/assets/curso/tema7/img10.png')
-      .col-lg-6
-        figure
-          img.img-t.mx-auto(src='@/assets/curso/tema7/img11.png')
+          img.img-t(src='@/assets/curso/tema7/img11.png')
+        .bg_16.p-4.px-5
+          h3 Nariguera de destete
+          p Utensilio muy utilizado en las producciones para asegurar el destete de los animales, donde se inserta una nariguera la cual impide que el ternero pueda mamar de la madre.
 
     ul.lista-ul--color
       li.mb_1 
@@ -138,12 +144,12 @@
         p.text-bold Para comprender la técnica de descornado primero se debe conocer qué es un cuerno y qué estructuras lo componen:
     
     .row.justify-content-center.mb-5
-      .col-lg-4 
-        figure(data-aos="fade-left")
+      .col-lg-4.mb-4.mb-lg-0
+        figure.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema7/img14.svg')
         figcaption.color_enlace Nota: #[a(href="https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf" target='_blank') https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf]  
       .col-lg-4 
-        figure(data-aos="fade-left")
+        figure.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema7/img15.svg')
         figcaption.color_enlace Nota: #[a(href="https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf" target='_blank') https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf]  
 

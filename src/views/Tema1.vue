@@ -168,13 +168,13 @@
         .row.justify-content-center
           .col-lg-12
             .tarjeta--container.row
-              .col-auto.tarjeta-color.color7.p-4.w_1.bt_1
+              .col-auto.tarjeta-color.color7.p-4.w_1.bt_1.bt_radius1
                 .row.justify-content-center.mb-4
                   .col-12
                     figure
                       img.img-t.mx-auto(src='@/assets/curso/tema1/img05.svg')
               
-              .col-md.tarjeta-color.color5.mb-4.mb-md-0
+              .col-md.tarjeta-color.color5.mb-4.mb-md-0.bt_radius2
                 .row.justify-content-center.mb-4
                   .col-12                  
                     h5.mb-3.mt-4 Decreto 1072 de 2015
@@ -194,20 +194,17 @@
                     p.m-0 El decreto 1072 tiene por objeto <b>anticipar, reconocer, evaluar y controlar los riesgos</b> que puedan afectar la seguridad y la salud en los espacios laborales.
 
             .tarjeta--container.row
-              .col-auto.tarjeta-color.color4.p-4.w_1
+              .col-auto.tarjeta-color.color4.p-4.w_1.bt_radius3
                 .row.justify-content-center.mb-4
                   .col-12
                     figure
                       img.img-t.mx-auto(src='@/assets/curso/tema1/img07.svg')
               
-              .col-md.tarjeta-color.color5
+              .col-md.tarjeta-color.color5.bt_radius4
                 .row.justify-content-center.mb-4
                   .col-12                  
                     h5.mb-3.mt-4 Conocimiento de la normativa aplicable
                     p.m-0 Como parte de la gestión administrativa de la empresa pecuaria, es importante conocer la normativa aplicable al sector, en especial aquella relacionada con las condiciones del entorno físico de los trabajadores, su bienestar, el acceso a condiciones justas y el desarrollo pleno de sus potencialidades. 
-
-
-
   
         
 

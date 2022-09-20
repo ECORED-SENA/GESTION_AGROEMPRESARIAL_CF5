@@ -91,93 +91,105 @@
 
       p Las enfermedades de control oficial son aquellas que, de acuerdo con lo establecido en las normas internacionales adoptadas por Colombia, se establecen como de interés en el ámbito nacional y se disponen programas de prevención, control y erradicación. De igual manera, se establece su notificación obligatoria y registro. A continuación, encuentra el listado de enfermedades y sus características principales:
 
-      ImagenInfograficaB.color-primario.mb-5
-        template(v-slot:imagen)
+      .row.justify-content-center.mb-5
+        .col-lg-12
           figure
-            img(src='@/assets/curso/tema5/imginfografica.svg', alt='Texto que describa la imagen')        
+            img(src='@/assets/curso/tema5/imginfografica.svg', alt='Texto que describa la imagen')  
 
-        div(x="7.8%" y="70%" tooltip="Fiebre aftosa")
-          .h5.mb-4 Fiebre aftosa
-          p Enfermedad viral altamente contagiosa que puede afectar a los animales de pezuña hendida como los bovinos, ovinos, caprinos, porcinos, bufalinos, venados y camélidos. El agente etiológico es un virus de la familia <em>Picornaviridae</em> género <em>Aphtovirus</em> y actualmente existen siete serotipos el O, A, C, SAT1, SAT2, SAT3 y Asia1.
-          p <b>Sus signos clínicos más representativos son:</b> presencia de ampollas y aftas en la lengua, paladar, encías, espacios interdigitales y/o ubre. Además de los mencionados anteriormente, los animales también pueden presentar fiebre, salivación excesiva, inapetencia, disminución en la producción de carne o leche, mastitis, cojeras, deformación de los cascos.
-          p Esta enfermedad es altamente propagable y se transmite de a través de la orina, heces, saliva, gotículas y leche de los animales infectados. Su prevención se hace vacunando los animales de cualquier edad y repetir la dosis cada 6 meses.
+      p.mb-4 Son las enfermedades que pueden sufrir las especies pecuarias y que se deben trabajar de inmediato por parte del predio y el ICA que es la entidad encargada de priorizar dichas enfermedades para evitar problemas mayores que impacten el proceso productivo, las enfermedades que han sido declaradas de control oficial en Colombia por el ICA y para las cuales se debe vacunar obligatoriamente son:
 
-        div(x="24.6%" y="70%" tooltip="Estomatitis vesicular")
-          .h5.mb-4 Estomatitis vesicular
-          p Es una enfermedad que se presenta principalmente bajo los 2.500 msnm. Su agente etiológico es un virus de la familia Rhabdoviridae, género Vesiculoris y existen dos serotipos principales: New Jersey e Indiana. Sus principales huéspedes son, los equinos, mulares, asnales, bovinos y porcinos.
-          p <b>Sus signos clínicos más representativos:</b> suelen confundirse con los de la fiebre aftosa, ya que los animales infectados presentan: presencia de ampollas y aftas en la lengua, paladar, encías, espacios interdigitales y/o ubre. Además de los mencionados anteriormente, los animales también pueden manifestar fiebre, salivación excesiva, inapetencia, disminución en la producción de carne o leche, mastitis, cojeras, deformación de los cascos.
-          p El tratamiento de esta enfermedad es estrictamente sintomático y se realiza limpiando las heridas con una solución antiséptica y brindando alimento blando a los animales que presenten lesiones en la boca.
+    .row(data-aos="fade-right")
+      .col-lg-12        
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bg_9
+          .row.justify-content-center(titulo="Fiebre aftosa")
+            .col-md-11.mb-4.mb-md-0
+              p Enfermedad viral altamente contagiosa que puede afectar a los animales de pezuña hendida como los bovinos, ovinos, caprinos, porcinos, bufalinos, venados y camélidos. El agente etiológico es un virus de la familia <em>Picornaviridae</em> género <em>Aphtovirus</em> y actualmente existen siete serotipos el O, A, C, SAT1, SAT2, SAT3 y Asia1.
+              .bg_15.p-4
+                p <b>Sus signos clínicos más representativos son:</b> presencia de ampollas y aftas en la lengua, paladar, encías, espacios interdigitales y/o ubre. Además de los mencionados anteriormente, los animales también pueden presentar fiebre, salivación excesiva, inapetencia, disminución en la producción de carne o leche, mastitis, cojeras, deformación de los cascos.
+                p Esta enfermedad es altamente propagable y se transmite de a través de la orina, heces, saliva, gotículas y leche de los animales infectados. Su prevención se hace vacunando los animales de cualquier edad y repetir la dosis cada 6 meses. 
 
-        div(x="41.5%" y="70%" tooltip="Brucelosis")
-          .h5.mb-4 Brucelosis
-          p Es una enfermedad infecciosa, causada por una bacteria Brucella. Existen diferentes especies de Brucella dependiendo de su huésped natural: <em>Brucella abortus</em> (bovinos), <em>Brucella melitensis</em> (ovinos y caprinos), <em>Brucella ovis</em> (ovinos), <em>Brucella suis</em> (porcinos), <em>Brucella canis</em> (caninos), <em>Brucella neotomae</em> (roedores silvestres).
-          p <b>Sus signos clínicos más representativos son:</b> abortos en el último tercio de la gestación, nacimiento de crías débiles, retención de placenta, metritis, en la macho orquitis y causar problemas de fertilidad en el hato. Además, es una enfermedad zoonótica, es decir, que se puede transmitir a los humanos. Puede afectar bovinos, ovinos, caprinos, caninos, al ser humano, entre otros. El hombre se puede contaminar por el consumo de leches crudas o por el contacto con secreciones de animales enfermos o fetos. 
-          p Su prevención consiste en vacunar exclusivamente las hembras entre 3 y 8 meses de edad con la vacuna cepa 19. Para el caso de las hembras mayores de 8 meses de edad, está rotundamente prohibida la vacunación con cepa 19 y solo se podrá vacunar con cepa RB51 con previa autorización del ICA. De igual manera, está totalmente prohibido el uso de estas vacunas en machos.
+          .row.justify-content-center(titulo="Estomatitis vesicular")
+            .col-md-11.mb-4.mb-md-0
+              p Es una enfermedad que se presenta principalmente bajo los 2.500 msnm. Su agente etiológico es un virus de la familia Rhabdoviridae, género Vesiculoris y existen dos serotipos principales: New Jersey e Indiana. Sus principales huéspedes son, los equinos, mulares, asnales, bovinos y porcinos.
+              .bg_15.p-4
+                p <b>Sus signos clínicos más representativos:</b> suelen confundirse con los de la fiebre aftosa, ya que los animales infectados presentan: presencia de ampollas y aftas en la lengua, paladar, encías, espacios interdigitales y/o ubre. Además de los mencionados anteriormente, los animales también pueden manifestar fiebre, salivación excesiva, inapetencia, disminución en la producción de carne o leche, mastitis, cojeras, deformación de los cascos.
+                p.m-0 El tratamiento de esta enfermedad es estrictamente sintomático y se realiza limpiando las heridas con una solución antiséptica y brindando alimento blando a los animales que presenten lesiones en la boca.
+
+          .row.justify-content-center(titulo="Brucelosis")
+            .col-md-11.mb-4.mb-md-0
+              p Es una enfermedad infecciosa, causada por una bacteria Brucella. Existen diferentes especies de Brucella dependiendo de su huésped natural: <em>Brucella abortus</em> (bovinos), <em>Brucella melitensis</em> (ovinos y caprinos), <em>Brucella ovis</em> (ovinos), <em>Brucella suis</em> (porcinos), <em>Brucella canis</em> (caninos), <em>Brucella neotomae</em> (roedores silvestres).
+              .bg_15.p-4
+                p <b>Sus signos clínicos más representativos son:</b> abortos en el último tercio de la gestación, nacimiento de crías débiles, retención de placenta, metritis, en la macho orquitis y causar problemas de fertilidad en el hato. Además, es una enfermedad zoonótica, es decir, que se puede transmitir a los humanos. Puede afectar bovinos, ovinos, caprinos, caninos, al ser humano, entre otros. El hombre se puede contaminar por el consumo de leches crudas o por el contacto con secreciones de animales enfermos o fetos. 
+                p.m-0 Su prevención consiste en vacunar exclusivamente las hembras entre 3 y 8 meses de edad con la vacuna cepa 19. Para el caso de las hembras mayores de 8 meses de edad, está rotundamente prohibida la vacunación con cepa 19 y solo se podrá vacunar con cepa RB51 con previa autorización del ICA. De igual manera, está totalmente prohibido el uso de estas vacunas en machos.
+
+          .row.justify-content-center(titulo="Tuberculosis")
+            .col-md-11.mb-4.mb-md-0      
+              p Enfermedad infectocontagiosa, zoonótica, crónica, producida por bacterias de morfología bacilar pertenecientes al género <em>Mycobacterium</em>, incluyendo las especies <em>Bovis</em>, <em>Tuberculosis</em> y <em>Avium</em>. Esta enfermedad afecta principalmente a los bovinos, ovinos, caprinos, cerdos, aves, humanos, entre otros. En los humanos se transmite por el consumo de leches crudas o quesos frescos. En los animales se transmite a través de secreciones o excreciones, también se pueden contaminar a través de objetos contaminados como suelo, agua, pasto, alimento o vía aerógena. 
+              .bg_15.p-4
+                p.m-0 <b>Sus signos clínicos más representativos son:</b> tos seca, debilidad progresiva, perdida del apetito, fiebre fluctuante, dificultad para respirar (disnea), ganglios linfáticos grandes. Una de las lesiones más características es que en los pulmones se aprecian áreas de gran tamaño con apariencia caseificada y zonas de mineralización.
+
+          .row.justify-content-center(titulo="Encefalopatía Espongiforme Bovina (EEB)")
+            .col-md-11.mb-4.mb-md-0          
+              p Comúnmente conocida con la “enfermedad de las vacas locas”, es una enfermedad zoonótica, exótica en Colombia, progresiva y fatal del sistema nervioso bovino. Es causada por la acumulación de una proteína anormal en el tejido nervioso y denominada prion y se distinguen dos formas:  la primera es la forma clásica que se da en los bovinos tras la ingestión del prion en piensos contaminados, específicamente ocurre cuando el alimento contiene productos derivados de bovinos como la harina de sangre o de hueso. La segunda forma es la atípica que hace referencia a la aparición de la enfermedad de forma espontánea.
+              .bg_15.p-4
+                p.m-0 <b>Sus signos clínicos más representativos son:</b> comportamiento agresivo o nervioso, falta de coordinación y dificultad para levantarse de la posición de reposo, hipersensibilidad al sonido y al tacto, movimientos espasmódicos, temblores, depresión, postura anormal, pérdida de peso, postura anormal de la cabeza, temblores y ataxia, desplazamientos en círculos, golpeo de miembros, lamido excesivo, bruxismo.
+
+          .row.justify-content-center(titulo="Rabia silvestre")
+            .col-md-11.mb-4.mb-md-0          
+              p Esta es una enfermedad viral, de tipo nervioso y que es prevenible de los mamíferos. El virus de la rabia infecta el sistema nervioso central y puede llegar a causar la muerte. Afecta a los animales domésticos como bovinos, equinos, ovinos, caprinos, porcinos, caninos y felinos. Se considera además una de las principales enfermedades zoonóticas. La principal vía de contaminación es a través de la saliva de animales infectados, generalmente se da por mordeduras, aunque también se puede contaminar a través de las membranas mucosas (boca, nariz y ojos). En Colombia, los mayores transmisores de la enfermedad son los murciélagos hematófagos. 
+              .bg_15.p-4
+                p.m-0 <b>Sus signos clínicos más representativos son:</b> cambios en el comportamiento, caída e incoordinación del tren posterior, salivación abundante, ceguera, temblores musculares y parálisis. Los animales presentan además pérdida de peso progresivo y deshidratación y posteriormente la muerte. La prevención se realiza a través de vacunación y control de murciélagos hematófagos.
+
+          .row.justify-content-center(titulo="Enfermedad de Newcastle")
+            .col-md-11.mb-4.mb-md-0          
+              p Conocida comúnmente como peste, moquillo o ahogazón. La enfermedad de Newcastle es una infección altamente contagiosa y con frecuencia severa, causada por un virus de la familia de los <em>Paramyxovirus</em>, de distribución cosmopolita. Tiene tres presentaciones: lentogénica o leve, mesogénica o moderada, y velogénica o muy virulenta, el virus puede sobrevivir por largos periodos a temperatura ambiente, especialmente en las heces, pero puede ser destruido por varios agentes físicos y químicos, no resiste pH ácidos ni la exposición a temperaturas de 60 °C por más de 30 min, es sensible al éter, formalina, amonios cuaternarios, agentes fenólicos y oxidantes, clorhexidina e hipoclorito de sodio (6%). El período de incubación es de 2 a 15 días, pero para efectos del código terrestre de la OIE es de 21.
+              .bg_15.p-4.mb-4
+                p.m-0 En la mayor parte de países con producción avícola a escala comercial, se practica la vacunación profiláctica. Para demostrar que un país está libre de la enfermedad de Newcastle, es necesaria la vigilancia conforme a las directrices del Código Sanitario para los Animales Terrestres de la OIE. En última instancia, los productores avícolas deben establecer procedimientos eficaces de bioseguridad para evitar la introducción de la enfermedad (Código Sanitario para los Animales Terrestres de la OIE).
+              p Para profundizar más sobre la enfermedad de Newcastle se recomienda leer la cartilla <em>Conceptos importantes para tener en cuenta para el control y diagnóstico de la enfermedad de Newcastle</em> disponible en el material complementario.
         
-        div(x="58.5%" y="70%" tooltip="Tuberculosis")
-          .h5.mb-4 Tuberculosis
-          p Enfermedad infectocontagiosa, zoonótica, crónica, producida por bacterias de morfología bacilar pertenecientes al género <em>Mycobacterium</em>, incluyendo las especies <em>Bovis</em>, <em>Tuberculosis</em> y <em>Avium</em>. Esta enfermedad afecta principalmente a los bovinos, ovinos, caprinos, cerdos, aves, humanos, entre otros. En los humanos se transmite por el consumo de leches crudas o quesos frescos. En los animales se transmite a través de secreciones o excreciones, también se pueden contaminar a través de objetos contaminados como suelo, agua, pasto, alimento o vía aerógena. 
-          p <b>Sus signos clínicos más representativos son:</b> tos seca, debilidad progresiva, perdida del apetito, fiebre fluctuante, dificultad para respirar (disnea), ganglios linfáticos grandes. Una de las lesiones más características es que en los pulmones se aprecian áreas de gran tamaño con apariencia caseificada y zonas de mineralización.
+          .row.justify-content-center(titulo="Encefalitis Equina Venezolana (EEV)")
+            .col-md-11.mb-4.mb-md-0    
+              p Es una enfermedad que afecta a los equinos y también a los humanos, es causada por un virus de la familia <em>Togaviridae</em>, este virus se transmite por la picadura del mosquito. Se puede prevenir vacunando cada dos años los equinos que habitan en los municipios que se encuentran por debajo de los 1.200 msnm. Es requisito indispensable para la movilización de equinos, que se encuentren vacunados contra la EEV y deberá realizarse con un periodo de anticipación de 15 días antes de la movilización de los animales.
+              .bg_15.p-4
+                p <b>Sus signos clínicos más representativos son:</b> en los humanos: fiebre mayor de 40 grados, dolor de cabeza, catarro nasal, vómito y dolores musculares. Sin embargo, algunas personas pueden presentar síntomas neurológicos como rigidez de la nuca, convulsiones, desviación ocular, nistagmos y en casos extremos, la muerte. 
+                p.m-0 En los equinos: fiebre, inapetencia, depresión, exitabilidad, apoyar la cabeza en paredes o superficies, caminar en círculos, movimientos masticatorios, flacidez en los labios, ojos semicerrados y orejas caídas.
 
-        div(x="75.5%" y="70%" tooltip="Encefalopatía Espongiforme Bovina (EEB)")
-          .h5.mb-4 Encefalopatía Espongiforme Bovina (EEB)
-          p Comúnmente conocida con la “enfermedad de las vacas locas”, es una enfermedad zoonótica, exótica en Colombia, progresiva y fatal del sistema nervioso bovino. Es causada por la acumulación de una proteína anormal en el tejido nervioso y denominada prion y se distinguen dos formas:  la primera es la forma clásica que se da en los bovinos tras la ingestión del prion en piensos contaminados, específicamente ocurre cuando el alimento contiene productos derivados de bovinos como la harina de sangre o de hueso. La segunda forma es la atípica que hace referencia a la aparición de la enfermedad de forma espontánea.
-          p <b>Sus signos clínicos más representativos son:</b> comportamiento agresivo o nervioso, falta de coordinación y dificultad para levantarse de la posición de reposo, hipersensibilidad al sonido y al tacto, movimientos espasmódicos, temblores, depresión, postura anormal, pérdida de peso, postura anormal de la cabeza, temblores y ataxia, desplazamientos en círculos, golpeo de miembros, lamido excesivo, bruxismo.
-
-        div(x="92.5%" y="70%" tooltip="Rabia silvestre")
-          .h5.mb-4 Rabia silvestre
-          p Esta es una enfermedad viral, de tipo nervioso y que es prevenible de los mamíferos. El virus de la rabia infecta el sistema nervioso central y puede llegar a causar la muerte. Afecta a los animales domésticos como bovinos, equinos, ovinos, caprinos, porcinos, caninos y felinos. Se considera además una de las principales enfermedades zoonóticas. La principal vía de contaminación es a través de la saliva de animales infectados, generalmente se da por mordeduras, aunque también se puede contaminar a través de las membranas mucosas (boca, nariz y ojos). En Colombia, los mayores transmisores de la enfermedad son los murciélagos hematófagos. 
-          p <b>Sus signos clínicos más representativos son:</b> cambios en el comportamiento, caída e incoordinación del tren posterior, salivación abundante, ceguera, temblores musculares y parálisis. Los animales presentan además pérdida de peso progresivo y deshidratación y posteriormente la muerte. La prevención se realiza a través de vacunación y control de murciélagos hematófagos.
-
-        div(x="16.2%" y="103%" tooltip="Enfermedad de Newcastle")
-          .h5.mb-4 Enfermedad de Newcastle
-          p Conocida comúnmente como peste, moquillo o ahogazón. La enfermedad de Newcastle es una infección altamente contagiosa y con frecuencia severa, causada por un virus de la familia de los <em>Paramyxovirus</em>, de distribución cosmopolita. Tiene tres presentaciones: lentogénica o leve, mesogénica o moderada, y velogénica o muy virulenta, el virus puede sobrevivir por largos periodos a temperatura ambiente, especialmente en las heces, pero puede ser destruido por varios agentes físicos y químicos, no resiste pH ácidos ni la exposición a temperaturas de 60 °C por más de 30 min, es sensible al éter, formalina, amonios cuaternarios, agentes fenólicos y oxidantes, clorhexidina e hipoclorito de sodio (6%). El período de incubación es de 2 a 15 días, pero para efectos del código terrestre de la OIE es de 21.
-          p En la mayor parte de países con producción avícola a escala comercial, se practica la vacunación profiláctica. Para demostrar que un país está libre de la enfermedad de Newcastle, es necesaria la vigilancia conforme a las directrices del Código Sanitario para los Animales Terrestres de la OIE. En última instancia, los productores avícolas deben establecer procedimientos eficaces de bioseguridad para evitar la introducción de la enfermedad (Código Sanitario para los Animales Terrestres de la OIE).
-          p Para profundizar más sobre la enfermedad de Newcastle se recomienda leer la cartilla <em>Conceptos importantes para tener en cuenta para el control y diagnóstico de la enfermedad de Newcastle</em> disponible en el material complementario.
+          .row.justify-content-center(titulo="Peste Porcina Clásica (PPC)")
+            .col-md-11.mb-4.mb-md-0
+              p Enfermedad viral, altamente contagiosa, que afecta a cerdos domésticos y silvestres y producida por un virus de la familia Flaviviridae del género Pestivirus. Por sus características, y por no existir tratamiento, es la enfermedad más importante en los porcinos a nivel mundial. La transmisión puede hacerse por contacto directo entre los cerdos vía oral u oro nasal, aunque también se pueden contagiar por contacto indirecto.
+              .bg_15.p-4
+                p <b>Sus signos clínicos más representativos son:</b> varían dependiendo de la cepa, la edad del animal y el estado inmunitario del mismo, mostrando varias formas de la enfermedad:
+                ul.lista-ul--color.mb_1
+                  li.mb_1 
+                    i.fas.fa-angle-right
+                    | Forma hiperaguda
+                  li.mb_1 
+                    i.fas.fa-angle-right
+                    | Forma aguda
+                  li.mb_1 
+                    i.fas.fa-angle-right
+                    | Forma subaguda
+                  li.mb_1 
+                    i.fas.fa-angle-right
+                    | Forma crónica
+                  li.mb_1 
+                    i.fas.fa-angle-right
+                    | Forma transplacentaria
+                p.mt-4.m-0 Dentro de las medidas de prevención para la PPC se encuentra la bioseguridad del predio, el control a las movilizaciones de animales y la vacunación de animales.
         
-        div(x="33.2%" y="103%" tooltip="Encefalitis Equina Venezolana (EEV)")
-          .h5.mb-4 Encefalitis Equina Venezolana (EEV)
-          p Es una enfermedad que afecta a los equinos y también a los humanos, es causada por un virus de la familia <em>Togaviridae</em>, este virus se transmite por la picadura del mosquito. Se puede prevenir vacunando cada dos años los equinos que habitan en los municipios que se encuentran por debajo de los 1.200 msnm. Es requisito indispensable para la movilización de equinos, que se encuentren vacunados contra la EEV y deberá realizarse con un periodo de anticipación de 15 días antes de la movilización de los animales.
-          p <b>Sus signos clínicos más representativos son:</b> en los humanos: fiebre mayor de 40 grados, dolor de cabeza, catarro nasal, vómito y dolores musculares. Sin embargo, algunas personas pueden presentar síntomas neurológicos como rigidez de la nuca, convulsiones, desviación ocular, nistagmos y en casos extremos, la muerte. 
-          p En los equinos: fiebre, inapetencia, depresión, exitabilidad, apoyar la cabeza en paredes o superficies, caminar en círculos, movimientos masticatorios, flacidez en los labios, ojos semicerrados y orejas caídas.
+          .row.justify-content-center(titulo="Influenza aviar")
+            .col-md-11.mb-4.mb-md-0          
+              p Es una infección viral tipo que afecta a todo tipo de aves, generalmente causa infecciones transitorias e inaparentes en aves silvestres (principalmente aves acuáticas) y no plantea serias amenazas a la salud de la vida silvestre, aves domésticas u otras especies. Sin embargo, ocasionalmente una cepa del virus de la IA puede emerger como una significativa amenaza a las aves silvestres, la industria aviar y/o a la salud humana; estas cepas son llamadas cepas de “influenza aviar altamente patógena” HPAI (del inglés <em>Highly Pathogenic Avian Influenza</em>).
+              .bg_15.p-4
+                p.m-0 La transmisión se produce por el contacto directo con las secreciones de aves infectadas, especialmente a través de las heces o de los alimentos y el agua contaminados, se puede diseminar por el transporte de fómites contaminados tales como agua, alimentos, implementos, sacos, botas, ropa, bandejas, cajas de huevos, entre otros. El virus también está normalmente en los tractos respiratorios o intestinales de las aves silvestres que actúan como portadores, transportando al virus  largas distancias cuando realizan sus migraciones. Los síntomas son depresión leve a severa, disminución en consumo de alimento, tos, estornudo, lagrimeo, cresta y barbilla congestionada y edematosa, aumento en la mortalidad.
 
-        div(x="50.1%" y="103%" tooltip="Peste Porcina Clásica (PPC)")
-          .h5.mb-4 Peste Porcina Clásica (PPC)
-          p Enfermedad viral, altamente contagiosa, que afecta a cerdos domésticos y silvestres y producida por un virus de la familia Flaviviridae del género Pestivirus. Por sus características, y por no existir tratamiento, es la enfermedad más importante en los porcinos a nivel mundial. La transmisión puede hacerse por contacto directo entre los cerdos vía oral u oro nasal, aunque también se pueden contagiar por contacto indirecto.
-          p <b>Sus signos clínicos más representativos son:</b> varían dependiendo de la cepa, la edad del animal y el estado inmunitario del mismo, mostrando varias formas de la enfermedad:
-          ul.lista-ul--color.mb_1
-            li.mb_1 
-              i.fas.fa-angle-right
-              | Forma hiperaguda
-            li.mb_1 
-              i.fas.fa-angle-right
-              | Forma aguda
-            li.mb_1 
-              i.fas.fa-angle-right
-              | Forma subaguda
-            li.mb_1 
-              i.fas.fa-angle-right
-              | Forma crónica
-            li.mb_1 
-              i.fas.fa-angle-right
-              | Forma transplacentaria
-          p.mt-4 Dentro de las medidas de prevención para la PPC se encuentra la bioseguridad del predio, el control a las movilizaciones de animales y la vacunación de animales.
-        
-        div(x="67%" y="103%" tooltip="Influenza aviar")
-          .h5.mb-4 Influenza aviar
-          p Es una infección viral tipo que afecta a todo tipo de aves, generalmente causa infecciones transitorias e inaparentes en aves silvestres (principalmente aves acuáticas) y no plantea serias amenazas a la salud de la vida silvestre, aves domésticas u otras especies. Sin embargo, ocasionalmente una cepa del virus de la IA puede emerger como una significativa amenaza a las aves silvestres, la industria aviar y/o a la salud humana; estas cepas son llamadas cepas de “influenza aviar altamente patógena” HPAI (del inglés <em>Highly Pathogenic Avian Influenza</em>).
-          p La transmisión se produce por el contacto directo con las secreciones de aves infectadas, especialmente a través de las heces o de los alimentos y el agua contaminados, se puede diseminar por el transporte de fómites contaminados tales como agua, alimentos, implementos, sacos, botas, ropa, bandejas, cajas de huevos, entre otros. El virus también está normalmente en los tractos respiratorios o intestinales de las aves silvestres que actúan como portadores, transportando al virus  largas distancias cuando realizan sus migraciones. Los síntomas son depresión leve a severa, disminución en consumo de alimento, tos, estornudo, lagrimeo, cresta y barbilla congestionada y edematosa, aumento en la mortalidad.
-
-        div(x="84%" y="103%" tooltip="Salmonelosis")
-          .h5.mb-4 Salmonelosis
-          p La salmonelosis es una enfermedad causada por bacterias del género Salmonella de la cual existen más de 2.600 serotipos, siendo los más importantes en el ámbito de la avicultura y a los cuales el ICA realiza actividades de control son S. pullorum y S. gallinarum, de una distribución cosmopolita, afecta a todo tipo de aves,  con gran resistencia a la desecación, pueden sobrevivir en ambiente sobre todo en presencia de materia orgánica (heces, cáscara de huevo, cama entre otros) durante varios días, aunque es susceptible a sustancias químicas oxidantes. <em>S. pullorum</em> y <em>S. gallinarum</em>, son inmóviles y altamente patógenas para las aves de corral, pudiendo causar altas pérdidas en animales reproductores o en la progenie. Además, estas bacterias pueden infectar otras especies de aves y algunos mamíferos.
-          p <b>Sus signos clínicos más representativos son:</b> en  general comprenden  anorexia, diarrea, deshidratación, amontonamiento, adherencia de heces a la cloaca, debilidad y muerte, pero específicamente depende del serovar por ejemplo en Pulorosis los síntomas son diarrea blanquecina abundante, que causa “empastamiento o taponamiento” de los pollitos, dificultad para respirar, tarsos inflamados, somnolencia, depresión y con crecimiento retardado, nódulos grisáceos blanquecinos en corazón, pulmones, hígado, paredes de molleja e intestino.
-
-        div(x="57.6%" y="8%" tooltip="Enfermedades de control oficial")
-          .h5.mb-4 Enfermedades de control oficial
-          p Son las enfermedades que pueden sufrir las especies pecuarias y que se deben trabajar de inmediato por parte del predio y el ICA que es la entidad encargada de priorizar dichas enfermedades para evitar problemas mayores que impacten el proceso productivo, las enfermedades que han sido declaradas de control oficial en Colombia por el ICA y para las cuales se debe vacunar obligatoriamente son:
-
-      .row.justify-content-center.mt_1.mb-5
+          .row.justify-content-center(titulo="Salmonelosis")
+            .col-md-11.mb-4.mb-md-0          
+              p La salmonelosis es una enfermedad causada por bacterias del género Salmonella de la cual existen más de 2.600 serotipos, siendo los más importantes en el ámbito de la avicultura y a los cuales el ICA realiza actividades de control son S. pullorum y S. gallinarum, de una distribución cosmopolita, afecta a todo tipo de aves,  con gran resistencia a la desecación, pueden sobrevivir en ambiente sobre todo en presencia de materia orgánica (heces, cáscara de huevo, cama entre otros) durante varios días, aunque es susceptible a sustancias químicas oxidantes. <em>S. pullorum</em> y <em>S. gallinarum</em>, son inmóviles y altamente patógenas para las aves de corral, pudiendo causar altas pérdidas en animales reproductores o en la progenie. Además, estas bacterias pueden infectar otras especies de aves y algunos mamíferos.
+              .bg_15.p-4
+                p.m-0 <b>Sus signos clínicos más representativos son:</b> en  general comprenden  anorexia, diarrea, deshidratación, amontonamiento, adherencia de heces a la cloaca, debilidad y muerte, pero específicamente depende del serovar por ejemplo en Pulorosis los síntomas son diarrea blanquecina abundante, que causa “empastamiento o taponamiento” de los pollitos, dificultad para respirar, tarsos inflamados, somnolencia, depresión y con crecimiento retardado, nódulos grisáceos blanquecinos en corazón, pulmones, hígado, paredes de molleja e intestino.          
+                
+      .row.justify-content-center.mb-5
         .col-lg-10
           .cajon.color-acento-contenido.bg_color1.p-3.mb-4
             .row.justify-content-center.align-items-center
@@ -185,7 +197,7 @@
                 img.img-t(src='@/assets/curso/tema1/img02.svg', alt='')
               .col-lg-10
                 p.mb-4.ms-2 Cada una de las enfermedades tratadas en esta presentación son de suma urgencia, en caso de identificar alguno de los síntomas o tiene certeza de la enfermedad por favor llame al veterinario y reporte al ICA de inmediato.
-                p.ms-2 Todos los datos de contacto los puede encontrar en: https://www.ica.gov.co/ 
+                p.ms-2.m-0 Todos los datos de contacto los puede encontrar en: #[a(href="https://www.ica.gov.co/" target='_blank') https://www.ica.gov.co/]   
 
     p.mb-5 Alerta temprana es la forma de llamar a las acciones que deben ser tenidas en cuenta con prioridad para el beneficio de las diferentes fincas evitando la propagación de alguna enfermedad o virus; por ello, a continuación, se comparte la imagen del ICA con estas alertas y se recomienda contactar de inmediato al Instituto para reportar la urgencia en caso de evidenciarla:
 
