@@ -548,25 +548,26 @@
         .col-md-6.mb-4.mb-md-0
           p.ms-2 Los diferentes estados fisiológicos del animal determinan el consumo de agua, generalmente es mucho mayor el consumo de agua en animales jóvenes y con niveles productivos altos que en animales viejos y posiblemente con niveles de producción con tendencia a bajar. De igual manera los procesos de gestación, lactancia y crecimiento. 
           p.ms-2 Necesidades de agua según especie animal en condiciones normales referente a su peso vivo:
-          .tabla-a.color-primario.mt-2.border_tabla1.mb-5
-            table
-              thead
-                tr
-                  td.h4.text-center Especie
-                  td.h4.text-center Porcentaje/Consumo
-              tbody
-                tr
-                  td.text-center Equinos
-                  td.text-center 10-15 % de su peso vivo
-                tr
-                  td.text-center Rumiantes
-                  td.text-center 8 a 10% de su peso vivo
-                tr
-                  td.text-center Porcinos
-                  td.text-center 5-6 % de su peso vivo
-                tr
-                  td.text-center Aves
-                  td.text-center 2-3 % de su peso vivo           
+          .row.justify-content-center
+            .col-lg-12
+              table
+                thead.color_thead 
+                  tr.color13
+                    td.h4.text-center Especie
+                    td.h4.text-center Porcentaje/Consumo
+                tbody
+                  tr
+                    td.text-center Equinos
+                    td.text-center 10-15 % de su peso vivo
+                  tr
+                    td.text-center Rumiantes
+                    td.text-center 8 a 10% de su peso vivo
+                  tr
+                    td.text-center Porcinos
+                    td.text-center 5-6 % de su peso vivo
+                  tr
+                    td.text-center Aves
+                    td.text-center 2-3 % de su peso vivo           
   
         .col-md-4
           figure.mb-4
