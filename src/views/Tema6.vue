@@ -45,7 +45,7 @@
             | En caso de utilizar o emplear plaguicidas en pastos y forrajes para la alimentación animal es importante respetar el periodo de carencia especificado en el rotulado del producto.
 
     .row.mb-4
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         ul.lista-ul--color.mb_1
           li.mb_1 
             i.fas.fa-check
@@ -251,7 +251,7 @@
       .col-lg-10
         p.text-center.mb-5 Las buenas prácticas se relacionan en los siguientes tres elementos:
 
-        .row.mb-5
+        .row
           .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -259,7 +259,7 @@
                 .tarjeta-flip__img.p-3.d-flex.align-items-center.justify-content-center
                   div
                     figure
-                      img.img-t.mb_2(src='@/assets/curso/tema6/img11.svg', alt='Texto que describa la imagen')
+                      img.img-t.mb-4(src='@/assets/curso/tema6/img11.svg', alt='Texto que describa la imagen')
                     h4.mb-0.text-center Instalaciones 
                 .tarjeta-flip__contenido.p-5.p-xl-4
                   p <b>Instalaciones:</b> Las instalaciones deben mantenerse limpias y desinfectadas de acuerdo al protocolo de limpieza y desinfección, deben contar con áreas con buena iluminación, temperatura, humedad y ventilación conforme al criterio de cumplimiento para cada área, las instalaciones se deben diseñar y ubicar para cumplir con las exigencias en pro al control de plagas.
@@ -267,10 +267,10 @@
           .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up")
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .tarjeta-flip__contenedor
-                .tarjeta-flip__img.p-3.d-flex.align-items-center.justify-content-center
+                .tarjeta-flip__img.p-4.d-flex.align-items-center.justify-content-center
                   div
                     figure
-                      img.img-t.mb_2(src='@/assets/curso/tema6/img12.svg', alt='Texto que describa la imagen')
+                      img.img-t.mb-4.mt-4(src='@/assets/curso/tema6/img12.svg', alt='Texto que describa la imagen')
                     h4.text-center Equipos
                 .tarjeta-flip__contenido.p-5.p-xl-4
                   p <b>Equipos:</b> Las herramientas o equipos que se encuentran en contacto directo con las diferentes materias primas deben ser limpiados y desinfectados después de cada uso para evitar todo tipo de contaminación cruzada. 
@@ -281,7 +281,7 @@
                 .tarjeta-flip__img.p-3.d-flex.align-items-center.justify-content-center
                   div
                     figure
-                      img.img-t.mb_3(src='@/assets/curso/tema6/img13.svg', alt='Texto que describa la imagen')
+                      img.img-t.mb-4.mt-5(src='@/assets/curso/tema6/img13.svg', alt='Texto que describa la imagen')
                     h4.text-center Documentación 
                 .tarjeta-flip__contenido.p-5.p-xl-4
                   p <b>Documentación:</b> La documentación es importante en los procesos de buenas prácticas de alimentación animal, ya que brindan información no solo frente a la trazabilidad de los alimentos, sino también de los animales dando criterios demostrativos de cumplimiento de muchas laborares realizadas y datos para un análisis mucho más riguroso en caso de ser necesario. 
@@ -497,59 +497,59 @@
 
     .tarjeta.tarjeta--gris.p-4.mb-5.bg_12
       LineaTiempoC.color-acento-contenido(text-small)(data-aos="fade-right")
-        .row.justify-content-center(titulo="Agua")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Agua")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Agua:</b> la cual se encuentra contenida en los alimentos.     
-          .col-md-5
+          .col-md-5.col-10
             figure
               img(src='@/assets/curso/tema6/img27.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-center(titulo="Nitrógeno no proteico")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Nitrógeno no proteico")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Nitrógeno no proteico:</b> se refiere a los compuesto por ures, sales de amonio, nitritos y nitratos, que se utilizan exclusivamente para la dieta de rumiantes.        
-          .col-md-5
+          .col-md-5.col-10
             figure
               img(src='@/assets/curso/tema6/img28.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-center(titulo="Glucósidos solubles")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Glucósidos solubles")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Glucósidos solubles:</b> las hexosas, pentosas, las pectinas, amilopectinas, amilasa.        
-          .col-md-5
+          .col-md-5.col-10
             figure
               img(src='@/assets/curso/tema6/img29.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-center(titulo="Glucósidos estructurales")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Glucósidos estructurales")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Glucósidos estructurales:</b> estructurados por hemicelusoa y celusosa, solo la contienen las raciones para rumiantes.       
-          .col-md-5
+          .col-md-5.col-10
             figure
               img(src='@/assets/curso/tema6/img30.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-center(titulo="Lípidos")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Lípidos")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Lípidos:</b> ácidos grasos, triglicéridos y glicerol.     
-          .col-md-5
+          .col-md-5.col-10
             figure
               img(src='@/assets/curso/tema6/img31.png', alt='Texto que describa la imagen')
         
-        .row.justify-content-center(titulo="Vitaminas")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Vitaminas")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Vitaminas:</b> tiamina, riboflavina, vitaminas B6, vitaminas B12, vitaminas del complejo B, vitamina A, D, C, E, K, ácidos nicotínicos, ascórbico, biotina.  
-          .col-md-5
+          .col-md-5.col-10
             figure
               img(src='@/assets/curso/tema6/img32.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-center(titulo="Aditivos")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Aditivos")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Aditivos:</b> Comúnmente se utilizan para que los alimentos sean más palatables y tengan mejor digestibilidad y absorción.       
-          .col-md-5
+          .col-md-5.col-10
             figure
               img(src='@/assets/curso/tema6/img33.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-center(titulo="Proteinas y aminoácidos")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Proteinas y aminoácidos")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Proteinas y aminoácidos:</b> que se obtienen de acuerdo a como esten disponibles los porcentajes en los productos provenientes.
-          .col-md-5
+          .col-md-5.col-10
             figure
               img(src='@/assets/curso/tema6/img34.png', alt='Texto que describa la imagen')
 

@@ -9,7 +9,7 @@
 
     .bg_fondo-t4
       .row.mb-4
-        .col-lg-6(data-aos="fade-right")
+        .col-lg-6(data-aos="fade-right").mb-4.mb-lg-0
           p El programa de producción es una herramienta de planificación operativa en la cual se establecen los pormenores del proceso productivo, en lo relacionado con la identificación plena del tipo de bienes a producir, las cantidades que se comercializarán y el tiempo del cual se dispone para la entrega del producto.          
           p El programa de producción depende de varios factores, entre los cuales se encuentran:
           ul.lista-ul--color.mb_1
@@ -28,7 +28,7 @@
             li.mb_1
               i.fas.fa-check
               | La capacidad instalada de la empresa pecuaria.
-        .col-lg-6
+        .col-lg-6.mb-4.mb-lg-0
           figure(data-aos="fade-left")
             img(src='@/assets/curso/tema4/img01.svg')
 

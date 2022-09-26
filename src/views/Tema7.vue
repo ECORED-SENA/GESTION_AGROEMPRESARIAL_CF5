@@ -8,7 +8,7 @@
       h1(data-aos="fade-right") Manejo de crías  
 
     .row.mb-5
-      .col-lg-6
+      .col-lg-6.mb-4.mb-lg-0
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema7/img01.png')
       .col-lg-6(data-aos="fade-right")
@@ -19,51 +19,51 @@
 
     .tarjeta.tarjeta--gris.p-4.mb-5.bg_13
       LineaTiempoC.color-acento-contenido(text-small)(data-aos="fade-right")
-        .row.justify-content-center(titulo="Paso 1")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Paso 1")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Paso 1: Asegurarse de que el animal respire al nacer</b> 
             p Se puede realizar de manera manual el retiro de la membrana que lo recubre asegurándose, de dejar descubiertas las fosas nasales y boca. Se puede realizar una limpieza con un trapo debidamente limpio y desinfectado.
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/tema7/img02.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-center(titulo="Paso 2")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Paso 2")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Paso 2: En caso de que no respire</b> 
             p Se deben realizar maniobras para ayudar al animal a reincorporarse y que logre respirar, pueden ser simples movimientos, o realizar presión en la zona torácica para sí estimular la respiración.      
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/tema7/img03.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-center(titulo="Paso 3")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Paso 3")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Paso 3: Se debe realizar el corte y desinfección del ombligo</b> 
             p Se debe realizar el corte y desinfección del ombligo: Se recomienda desinfectar el ombligo tan pronto como sea posible después del nacimiento para prevenir enfermedades. Mojar el ombligo con 7% de yodo es el mejor método para desinfectar. La solución del yodo actúa para prevenir la infección. 
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/tema7/img04.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-center(titulo="Paso 4")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Paso 4")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Paso 4: Se debe tener en cuenta las condiciones de temperatura</b> 
             p Es importante contar con criadoras para así brindar el calor necesario al recién nacido. 
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/tema7/img05.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-center(titulo="Paso 5")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Paso 5")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Paso 5: Consumo de calostro</b> 
             p Es importante acercar los reconocidos a los pezones de las madres para iniciar el proceso de amamantamiento y aprovechar las primeras horas donde el calostro es brindado por la madre. 
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/tema7/img06.png', alt='Texto que describa la imagen')
         
-        .row.justify-content-center(titulo="Paso 6")
-          .col-md-5.mb-4.mb-md-0.align-self-center
+        .row.justify-content-lg-center.align-items-center(titulo="Paso 6")
+          .col-md-5.col-10.mb-4.mb-md-0
             p <b>Paso 6: Expulsión del meconio</b> 
             p Ya sea durante o después de nacer las crías deben realizar la expulsión del meconio siendo este una eliminación intestinal generalmente compuesta por moco, líquido amniótico, lanugo, etc. 
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/tema7/img07.png', alt='Texto que describa la imagen')
 
