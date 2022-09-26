@@ -9,7 +9,7 @@
 
     .bg_fondo-t4
       .row.mb-4
-        .col-lg-6
+        .col-lg-6(data-aos="fade-right")
           p El programa de producción es una herramienta de planificación operativa en la cual se establecen los pormenores del proceso productivo, en lo relacionado con la identificación plena del tipo de bienes a producir, las cantidades que se comercializarán y el tiempo del cual se dispone para la entrega del producto.          
           p El programa de producción depende de varios factores, entre los cuales se encuentran:
           ul.lista-ul--color.mb_1
@@ -34,16 +34,16 @@
 
       .row.justify-content-center.mb-4
         .col-lg-10
-          .cajon.color-acento-contenido.bg_color1.p-3.mb-4
+          .cajon.color-acento-contenido.bg_color1.p-3.mb-4(data-aos="fade-up")
             h4.ms-2 Diseño del programa de producción           
             p.m-0.ms-2 El correcto diseño del programa de producción permite el uso eficiente de los recursos y posibilita el cumplimiento de los plazos de entrega, lo cual es de suma importancia cuando se tienen compromisos contractuales donde el factor tiempo es prioritario. 
 
       p.mb-5 Los elementos básicos del programa de producción se pueden agrupar así:        
 
-      .row.mb-5
+      .row.mb-5(data-aos="fade-up-right")
         .col-lg-12
           .bg_3.p-4
-            SlyderB.mb-5(:datos="datosSlyder")   
+            SlyderB.mb-5(:datos="datosSlyder")  
 
     p La formulación del programa de producción es una labor que demanda un alto nivel de concentración de parte del equipo de trabajo de la empresa pecuaria y que requiere del conocimiento profundo de sus potencialidades y necesidades.  
     p.mb-5 Para obtener un programa de producción eficiente y que responda a las necesidades reales de la empresa es fundamental tener en cuenta los siguientes pasos:
@@ -62,7 +62,7 @@
                     img.img-t.mx-auto(src='@/assets/curso/tema4/img09.svg', alt='Texto que describa la imagen')
                   
           .row.justify-content-end.align-items-center
-            .col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               .row
                 .col-lg-9
                   figure
@@ -82,7 +82,7 @@
                     img.img-t.mx-auto(src='@/assets/curso/tema4/img11.svg', alt='Texto que describa la imagen')
 
           .row.justify-content-end.align-items-center
-            .col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               .row
                 .col-lg-9
                   figure

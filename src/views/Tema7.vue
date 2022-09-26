@@ -11,14 +11,14 @@
       .col-lg-6
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema7/img01.png')
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         p El manejo de las crías es uno de los pilares productivos en los diferentes sistemas de explotación animal siendo estos los futuros animales que mantendrán dicho sistema. Por ende, la importancia de realizar un buen cuidado y manejo para así asegurar la supervivencia del animal evitando pérdidas económicas o retrasos en el crecimiento.
         p La madre como las crías recién nacidas requiere una supervisión durante el parto para asegurar las correctas labores de parto por parte de la madre y la supervivencia de la cría.
 
     h4.mb-5 En un parto normal la cría requiere una intervención por parte del cuidador donde debe tener en cuenta estos aspectos:
 
     .tarjeta.tarjeta--gris.p-4.mb-5.bg_13
-      LineaTiempoC.color-acento-contenido(text-small)
+      LineaTiempoC.color-acento-contenido(text-small)(data-aos="fade-right")
         .row.justify-content-center(titulo="Paso 1")
           .col-md-5.mb-4.mb-md-0.align-self-center
             p <b>Paso 1: Asegurarse de que el animal respire al nacer</b> 
@@ -69,14 +69,14 @@
 
     Separador
 
-    #t_7_1.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_7_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 7.1 Técnicas de manejo del destete (Propiedades del calostro) 
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-6
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema7/img09.png')
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         p En el manejo animal y en los sistemas productivos donde una de las principales fuentes de ingreso es la venta de la leche, se busca que las crías no consuman tanto tiempo o en su totalidad la leche de las madres, por esta razón existen técnicas las cuales consisten en separar la cría de su madre, para así ya sea que interrumpan su ciclo de producción de leche, o aprovechar toda la leche del animal.
         p En el ganado bovino se evidencian diferentes tipos de destete los cuales nos sirven para identificar cada uno, dependiendo del tiempo que está el ternero con la madre:
         p.m-0 <b>Tradicional:</b> se practica cuando el ternero tiene entre 6 a 8 meses de edad. 
@@ -94,26 +94,26 @@
     p.text-bold.mb-4 A continuación, se puede ver dos herramientas utilizadas:
 
     .row.mb-5
-      .col-lg-6.mb-4.mb-lg-0
-        figure
+      .col-lg-6.mb-4.mb-md-5.mb-lg-0
+        figure(data-aos="fade-down")
           img.img-t(src='@/assets/curso/tema7/img10.png')
-        .bg_16.p-4.px-5
+        .bg_16.p-4.px-5(data-aos="fade-up")
           h3 Bozal
           p Se utiliza para diversas situaciones de manejo animal, así como para el destete de los animales evitando el mamar de los terneros.             
-      .col-lg-6
-        figure
+      .col-lg-6.mt-md-4.mt-lg-0
+        figure(data-aos="fade-down")
           img.img-t(src='@/assets/curso/tema7/img11.png')
-        .bg_16.p-4.px-5
+        .bg_16.p-4.px-5(data-aos="fade-up")
           h3 Nariguera de destete
           p Utensilio muy utilizado en las producciones para asegurar el destete de los animales, donde se inserta una nariguera la cual impide que el ternero pueda mamar de la madre.
 
-    ul.lista-ul--color
+    ul.lista-ul--color(data-aos="fade-right")
       li.mb_1 
         i.fas.fa-angle-right
         h4 Propiedades del calostro
 
     .row.mb-4
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         p La gran mayoría de mamíferos al momento del nacimiento nacen sin un sistema inmune completo, por ende las primeras horas de amamantamiento son de gran importancia ya que la madre esas primeras horas ofrece una gran cantidad de inmunoglobulinas esenciales para la supervivencia y crecimiento. 
         .cajon.color2.py-3.px-4.mt-3.mb-4       
           p Los neonatos requieren de asistencia inmune pasiva que son anticuerpos y linfocitos específicamente sensibilizados contra la mayoría de los microorganismos de su entorno la cual es transferida por la madre, a través del calostro hasta que el ternero desarrolla su inmunidad activa. (Fortín, 2009).  
@@ -124,11 +124,11 @@
     
     Separador
 
-    #t_7_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_7_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 7.2 Prácticas de Manejo Animal (descorné, descolmillada, corte de cola y castración)
 
     .row.mb-4
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         p Todas estas prácticas deben realizarse antes del destete del animal inclusive algunas con los animales a pocas horas de nacidos, para así evitar un mayor estrés en los animales y no afectar los tiempos de producción evitando retrasos en el crecimiento o en la ganancia de peso. 
         ul.lista-ul--color
           li.mb_1 
@@ -145,7 +145,7 @@
     
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
-        figure.mb-4(data-aos="fade-left")
+        figure.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/tema7/img14.svg')
         figcaption.color_enlace Nota: #[a(href="https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf" target='_blank') https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf]  
       .col-lg-4 
@@ -155,7 +155,8 @@
 
     p.mb-5 Las técnicas de descorne, radican en el método que se va a aplicar para realizar el descornado existen diferentes métodos con diferentes aplicaciones y usos, pero con el mismo resultado final que es la eliminación de los cuernos en los animales. Los métodos más utilizados en las producciones son:
 
-    TabsB.color-acento-contenido.mb-5
+    
+    TabsB.color-acento-contenido.mb-5(data-aos="fade-right").bg_23
       .py-4.py-md-5(titulo="Cauterización química")
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
@@ -214,56 +215,53 @@
     p.text-bold Existen diferentes tipos de castración como lo son:
 
     .row.mb-5
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center
-                .col-7
-                  figure
-                    img.img-t.mx-auto.mt-5(src='@/assets/curso/tema7/img22.svg', alt='Texto que describa la imagen')
-              h5.text-center.mt-4 Quirúrgica
+            .tarjeta-flip__img.p-3.d-flex.align-items-center.justify-content-center
+              div
+                figure
+                  img.img-t.mx-auto(src='@/assets/curso/tema7/img22.svg', alt='Texto que describa la imagen')
+                h5.text-center.mt-4 Quirúrgica
             .tarjeta-flip__contenido.p-4.p-xl-5
               h5.mt-4 Quirúrgica
               p Es una de las castraciones más comunes en las especies pecuarias, la cual consta de realizar una incisión en los testículos logrando la extracción completa, de esta manera disminuyendo la producción de hormonas masculinas y esperma.  
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up")
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center
-                .col-7
-                  figure
-                    img.img-t.mx-auto.mt_3(src='@/assets/curso/tema7/img23.svg', alt='Texto que describa la imagen')
-              h5.text-center.mt-3 Inmunocastración
+            .tarjeta-flip__img.p-3.d-flex.align-items-center.justify-content-center
+              div
+                figure
+                  img.img-t.mx-auto(src='@/assets/curso/tema7/img23.svg', alt='Texto que describa la imagen')
+                h5.text-center.mt-4 Inmunocastración
             .tarjeta-flip__contenido.p-4.p-xl-5
               h5.mt-4 Inmunocastración
               p El cerdo es inmunizado contra la hormona liberadora de gonadotropina esta inhibe la producción de LH que a su vez inhibe la secreción de testosterona (hormona masculina) y así atrofiando el crecimiento testicular.
 
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
+      .col-sm-6.col-xl-4.mb-4.mb-sm-0(data-aos="fade-left")
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .row.justify-content-center
-                .col-7
-                  figure
-                    img.img-t.mx-auto.mt-5(src='@/assets/curso/tema7/img24.svg', alt='Texto que describa la imagen')
-              h5.text-center.mt-4 Mecánica 
+            .tarjeta-flip__img.p-3.d-flex.align-items-center.justify-content-center
+              div
+                figure
+                  img.img-t.mx-auto(src='@/assets/curso/tema7/img24.svg', alt='Texto que describa la imagen')
+                h5.text-center.mt-4 Mecánica 
             .tarjeta-flip__contenido.p-4.p-xl-5
               h5.mt-4 Mecánica
               p Es un método de castración utilizada comúnmente en el ganado ovino y caprino el cual consisten en la utilización de unas bandas elásticas las cuales se sujetan en el cuello del escroto causando una homeostasis sanguínea así llegando a una atrofia testicular y posterior caída. 
 
     Separador
 
-    #t_7_3.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_7_3.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 7.3 Sistema de identificación animal (registro)
 
     p.mb-5 La identificación de los animales es una práctica de manejo muy eficiente para los sistemas productivos modernos donde se puede hacer un seguimiento completo de un animal y realizar un manejo sanitario adecuado en caso de requerirlo. Los tipos de identificación o marcaje son de acuerdo con el sistema productivo, especie, requerimiento de la ley, entre otros factores que condicionan realizar una marca en el animal. 
 
     h4.mb-4 Estos tipos de identificación son:
 
-    TabsC.color-acento-contenido.mb-5
+    TabsC.color-acento-contenido.mb-5(data-aos="fade-right").bg_17
       .py-3.py-md-4(titulo="Marcado con hierro")
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0

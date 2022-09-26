@@ -8,7 +8,7 @@
       h1(data-aos="fade-right") Plan de Alimentación
 
     .row
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         .cajon.color2.py-3.px-4.mt-3.mb-4       
           p.m-0 Este plan es la forma clara de planificar cómo se le dará alimento a los animales a cargo para satisfacer mucho más que el hambre, para la FAO (2020) este plan debe trabajar en “un mejoramiento continuo de las condiciones de los animales, que satisfaga sus requerimientos nutricionales (en cantidad y calidad) y les permita un buen desempeño, lo cual se evidencia en los parámetros productivos y reproductivos (peso al nacimiento, peso al destete, ganancia de peso, producción de leche e intervalo entre partos), como también en la salud y el bienestar del hato”, adicionalmente debe ser claro el abastecimiento de agua en buenas condiciones y suplementos vitamínicos que satisfagan las necesidades energéticas y de formación de los animales.
 
@@ -19,7 +19,7 @@
 
     Separador
 
-    #t_6_1.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_6_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 6.1 Buenas prácticas de alimentación animal 
 
     p Las buenas prácticas de alimentación animal “son todas las acciones encaminadas en el proceso de elaboración de alimentos que brinden un estándar de calidad e inocuidad según las diferentes normas y lineamientos” FAO (2004). Enfocadas en brindar unos piensos o alimentos de excelente calidad para los animales que son destinados al consumo humano abarcando toda la cadena alimenticia.
@@ -28,7 +28,7 @@
       .col-lg-6.mb-4.mb-lg-0
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema6/img02.png')
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         p Así, el ICA como ente regulador da unas especificaciones y lineamientos, los cuales son de vital importancia reconocer e implementar para asegurar las buenas prácticas de alimentación animal que cumplan las siguientes características:
         ul.lista-ul--color.mb_1
           li.mb_1 
@@ -45,7 +45,7 @@
             | En caso de utilizar o emplear plaguicidas en pastos y forrajes para la alimentación animal es importante respetar el periodo de carencia especificado en el rotulado del producto.
 
     .row.mb-4
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         ul.lista-ul--color.mb_1
           li.mb_1 
             i.fas.fa-check
@@ -66,14 +66,14 @@
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema6/img03.png')
 
-    .bg_5.p-4.mb-5
+    .bg_5.p-4.mb-5(data-aos="fade-up")
       p.m-0 Para esto debemos tener en cuenta los diferentes principios y requerimientos generales en los cuales los piensos o ingredientes juegan un papel fundamental ya que se deben obtener de fuentes seguras y conservarse en bajo condiciones de inocuidad, para protegerlos de contaminación o plagas que puedan afectar las condiciones organolépticas de dichos alimentos. 
 
     .row.justify-content-center
       .col-lg-10
         .bg_6.p-4
           .row.justify-content-center
-            .col-lg-10
+            .col-lg-10(data-aos="fade-right")
               ol.lista-ol--cuadro.mt-5
                 li 
                   .lista-ol--cuadro__vineta
@@ -81,23 +81,76 @@
               p.mb-4 Los ingredientes deben obtenerse de fuentes seguras y someterse a diferentes análisis de calidad los que determinan la inocuidad de los alimentos. La vigilancia de los ingredientes debe incluir la inspección, el muestreo y el análisis para descartar la presencia de contaminantes, alteraciones de la materia prima, aplicando protocolos encaminados en el riesgo. Teniendo presente los diferentes agentes causales de descomposición y alteración dentro de los cuales encontramos los agentes físicos, los agentes químicos, los agentes biológicos. 
     
     .row.justify-content-center
-      .col-lg-8               
-        figure.mb-5(data-aos="fade-left")
-          img.img-t.mt_2(src='@/assets/curso/tema6/img04.svg')
+      .col-lg-10
+        .row.justify-content-center.align-items-center.mb-5.mt_2
+          .col-lg-3        
+            .bg_19.p-4
+              p.mt-3.m-0.text-white.ms-2 <b>Físicos</b>
+              p.mb-2.text-white.ms-2 Agentes causales por el medio ambiente.
+            .bg_22.p-3.shadow-sm
+              ul.lista-ul
+                li
+                  ul
+                    li.m_bottom1 
+                      i.lista-ul__vineta
+                      | Macánicas.
+                    li.m_bottom1 
+                      i.lista-ul__vineta
+                      | Temperatura.
+                    li.m_bottom1 
+                      i.lista-ul__vineta
+                      | Humedad.
+                    li.m_bottom1 
+                      i.lista-ul__vineta
+                      | Aire.
+          .col-lg-3.my-3        
+            .bg_20.p-4
+              p.mb-0.text-white.ms-2 <b>Químicos</b>
+              p.mb-0.text-white.ms-2 Alteración causada por accion de los cambios quimicos de las materias primas.
+            .bg_22.p-3.px-2.shadow-sm
+              ul.lista-ul
+                li
+                  ul
+                    li.m_bottom1 
+                      i.lista-ul__vineta
+                      | Oxidación de vitaminas.
+                    li.m_bottom1 
+                      i.lista-ul__vineta
+                      | Descomposición proteica.
+                    li.m_bottom1 
+                      i.lista-ul__vineta
+                      | Fermentación de glucósidos. 
+          .col-lg-3.my-3        
+            .bg_21.p-4(data-aos="flip-down")
+              p.mb-0.text-white.ms-2 <b>Biológicos</b>
+              p.mb-0.text-white.ms-2 Alteración causada por agentes naturales producto de la descomposición.
+            .bg_22.p-3.shadow-sm
+              ul.lista-ul
+                li
+                  ul
+                    li.m_bottom1 
+                      i.lista-ul__vineta
+                      | Enzimas.
+                    li.m_bottom1 
+                      i.lista-ul__vineta
+                      | Parásitos.
+                    li.m_bottom1 
+                      i.lista-ul__vineta
+                      p.mb-4 Microbiológicas.
               
     .row.justify-content-center
       .col-lg-8             
-        ol.lista-ol--cuadro.mb-4
+        ol.lista-ol--cuadro.mb-4(data-aos="fade-right")
           li 
             .lista-ol--cuadro__vineta
             h4 Agentes causales de alteración del pienso e ingredientes 
-        p.text-bold Etiquetado
+        p.text-bold(data-aos="fade-right") Etiquetado
         p El etiquetado o rótulo debe ser claro y visible, se deben tener en cuenta los ingredientes y su norma de uso aparte de esto debe cumplir con los siguientes criterios:
         .row.mb-4
           .col-lg-3
             figure(data-aos="fade-left")
               img.img-t.mx-auto(src='@/assets/curso/tema6/img05.png')
-          .col-lg-7
+          .col-lg-7(data-aos="fade-right")
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta
@@ -125,14 +178,14 @@
                 | Información sobre la especie a la que está destinado. 
         p.mb-5 Por medio del etiquetado, las fechas de fabricación, lista de ingredientes deberá ser posible generar una trazabilidad de los alimentos o materias primas utilizadas mediante el manejo adecuado de registros y muestras tomadas en caso de generar una alteración o enfermedad en el animal, tal como se ve en el numeral a y b que se presentan a continuación:
 
-    ol.lista-ol--cuadro
+    ol.lista-ol--cuadro(data-aos="fade-right")
       li 
         .lista-ol--cuadro__vineta
           span a
         p.text-bold Procedimiento de inspección o control 
 
     .row.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         .cajon.color2.py-3.px-4.mt-3.mb-4       
           p.m-0 Para la elaboración de los diferentes planes de alimentación se deben adquirir materias primas o diferentes alimentos balanceados para suplir las necesidades de las especies, al adquirir estas materias primas o alimentos los fabricantes o distribuidores deben adoptar prácticas de inspección vigilancia y control en las diferentes etapas de elaboración de dicho alimentos tanto en la etapa de producción, almacenamiento y transporte, asegurando así que los alimentos destinados para el consumo animal sean ofrecidos de manera inocua y bajo estándares de calidad.
         p La vigilancia de los alimentos balanceados o pienso, ya sea por el fabricante, distribuidor, el productor o el ente regulador deberá incluir actividades de inspección, muestreo y por último un análisis para determinar las características del alimento y así asegurar sus condiciones de consumo. 
@@ -140,7 +193,7 @@
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema6/img06.png')
     
-    ol.lista-ol--cuadro
+    ol.lista-ol--cuadro(data-aos="fade-right")
       li 
         .lista-ol--cuadro__vineta
           span b
@@ -151,18 +204,18 @@
     .row.justify-content-center
       .col-lg-8 
         .row.mb-5
-          .col-md-6.col-lg.mb-5.mb-lg-0
+          .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-right")
             .tarjeta-avatar
               img.img-t(src='@/assets/curso/tema6/img07.svg' alt='AvatarTop')
-              .tarjeta.color9
+              .tarjeta.color9.shadow
                 .p-4
                   p.text-bold.ms-3 Medicamentos veterinarios en alimentos medicados.
                   p.ms-3 Para la realización de alimentos medicados se deben emplear unas condiciones especiales para evitar la contaminación cruzada con otros alimentos que no requieren la medicación. 
 
-          .col-md-6.col-lg.mb-5.mb-lg-0
+          .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-left")
             .tarjeta-avatar
               img.img-t(src='@/assets/curso/tema6/img08.svg' alt='AvatarTop')
-              .tarjeta.color9
+              .tarjeta.color9.shadow
                 .p-4
                   p.text-bold.ms-3 Sustancias no deseables
                   p.ms-3 Deberán identificarse, controlarse y reducirse al mínimo la presencia de estos en los alimentos balanceados para animales donde debemos tener en cuenta la eliminación de contaminantes industriales y ambientales, contaminantes de tipo orgánicos los diferentes agentes patógenos y mico toxinas. 
@@ -171,14 +224,14 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6
-        .bg_7.p-2
+        .bg_7.p-2(data-aos="fade-right")
           p.m-0.text-center.text-bold Procesos que alteran la inocuidad de los alimentos  
     .row.justify-content-center.mb-5
       .col-lg-8
         figure(data-aos="fade-down")
           img.img-t(src='@/assets/curso/tema6/img09.svg')
 
-    ol.lista-ol--cuadro
+    ol.lista-ol--cuadro(data-aos="fade-right")
       li 
         .lista-ol--cuadro__vineta
         h4 Personal
@@ -187,7 +240,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6.col-xl-7.col-xxl-6
-        .bg_7.p-2
+        .bg_7.p-2(data-aos="fade-right")
           p.m-0.text-center.text-bold  Acciones del personal en pro de las buenas prácticas de alimentación animal
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -199,50 +252,47 @@
         p.text-center.mb-5 Las buenas prácticas se relacionan en los siguientes tres elementos:
 
         .row.mb-5
-          .col-sm-6.col-xl-4.mb-4.mb-xl-0
+          .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
-                .tarjeta-flip__img
-                  .row.justify-content-center
-                    .col-7
-                      figure
-                        img.img-t.img-c.mb_2(src='@/assets/curso/tema6/img11.svg', alt='Texto que describa la imagen')
-                  h4.text-center Instalaciones 
-                .tarjeta-flip__contenido.p-3.p-xl-4
+                .tarjeta-flip__img.p-3.d-flex.align-items-center.justify-content-center
+                  div
+                    figure
+                      img.img-t.mb_2(src='@/assets/curso/tema6/img11.svg', alt='Texto que describa la imagen')
+                    h4.mb-0.text-center Instalaciones 
+                .tarjeta-flip__contenido.p-5.p-xl-4
                   p <b>Instalaciones:</b> Las instalaciones deben mantenerse limpias y desinfectadas de acuerdo al protocolo de limpieza y desinfección, deben contar con áreas con buena iluminación, temperatura, humedad y ventilación conforme al criterio de cumplimiento para cada área, las instalaciones se deben diseñar y ubicar para cumplir con las exigencias en pro al control de plagas.
 
-          .col-sm-6.col-xl-4.mb-4.mb-xl-0
+          .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up")
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .tarjeta-flip__contenedor
-                .tarjeta-flip__img
-                  .row.justify-content-center
-                    .col-7
-                      figure
-                        img.img-t.img-c.mb_2(src='@/assets/curso/tema6/img12.svg', alt='Texto que describa la imagen')
-                  h4.text-center Equipos
-                .tarjeta-flip__contenido.p-3.p-xl-4
+                .tarjeta-flip__img.p-3.d-flex.align-items-center.justify-content-center
+                  div
+                    figure
+                      img.img-t.mb_2(src='@/assets/curso/tema6/img12.svg', alt='Texto que describa la imagen')
+                    h4.text-center Equipos
+                .tarjeta-flip__contenido.p-5.p-xl-4
                   p <b>Equipos:</b> Las herramientas o equipos que se encuentran en contacto directo con las diferentes materias primas deben ser limpiados y desinfectados después de cada uso para evitar todo tipo de contaminación cruzada. 
 
-          .col-sm-6.col-xl-4.mb-4.mb-sm-0
+          .col-sm-6.col-xl-4.mb-4.mb-sm-0(data-aos="fade-left")
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .tarjeta-flip__contenedor
-                .tarjeta-flip__img
-                  .row.justify-content-center
-                    .col-7
-                      figure.pt-4
-                        img.img-t.img-c.mb_3(src='@/assets/curso/tema6/img13.svg', alt='Texto que describa la imagen')
-                  h4.text-center Documentación 
-                .tarjeta-flip__contenido.p-3.p-xl-4
+                .tarjeta-flip__img.p-3.d-flex.align-items-center.justify-content-center
+                  div
+                    figure
+                      img.img-t.mb_3(src='@/assets/curso/tema6/img13.svg', alt='Texto que describa la imagen')
+                    h4.text-center Documentación 
+                .tarjeta-flip__contenido.p-5.p-xl-4
                   p <b>Documentación:</b> La documentación es importante en los procesos de buenas prácticas de alimentación animal, ya que brindan información no solo frente a la trazabilidad de los alimentos, sino también de los animales dando criterios demostrativos de cumplimiento de muchas laborares realizadas y datos para un análisis mucho más riguroso en caso de ser necesario. 
 
     Separador
 
-    #t_6_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 6.2 Almacenamiento de alimentos, materia prima e insumos pecuarios
 
     .row.align-items-center.mb-4
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         p.mb-4 El almacenamiento de los alimentos, materias primas e insumos es uno de los puntos críticos de control hablando de las buenas prácticas de alimentación, ya que unas buenas técnicas de almacenamiento brindan a los alimentos balanceados y materias una mayor vida útil dicho lo anterior el almacenamiento depende exclusivamente del espacio y condiciones del almacén.
         .cajon.color2.py-3.px-4.mt-3.mb-4       
           p.m-0 Existen diferentes formas de almacenar las materias primas, alimentos e insumos pecuarios teniendo en cuenta las características físicas y condiciones organolépticas de los anteriormente nombrados. Los métodos de almacenamiento se dividen según la acomodación y orden dado a los alimentos, materias primas e insumos en el momento de almacenar.  
@@ -252,7 +302,7 @@
 
     p.mb-5 Las formas más comunes de almacenar las cuales pueden ser usadas según condiciones productivas y o estructurales son las siguientes:
                 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bg_9
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bg_9(data-aos="fade-right")
       .row.justify-content-around.align-items-start(titulo="Almacenamiento ordenado")
         .col-md-6.mb-4.mb-md-0
           p.ms-2 Es un método de almacenamiento en el cual se ordena teniendo el flujo y la frecuencia de uso, entrada y salida de materias primas , alimento, etc., evitando si mezclas de productos, delimitando cada espacio con los nombres que los alimentos ocuparan, dejando una separación entre alimentos para así evitar contaminación o mezcla de alimentos o materias primas así asegurando una inocuidad de las mismas, este tipo de almacenamiento no genera una utilización total del espacio pero su flujo es mucho más ágil y ordenado.       
@@ -293,13 +343,13 @@
             
             p Deberá realizarse la inspección de las condiciones de limpieza para asegurar la inocuidad de los alimentos allí almacenados.
 
-    ol.lista-ol--cuadro
+    ol.lista-ol--cuadro(data-aos="fade-right")
       li 
         .lista-ol--cuadro__vineta
         h4 Uso de suplementos para alimentación animal. 
 
     .row.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         p La deficiencia de nutrientes en las diferentes materias primas o los elevados costos para la adquisición de materias primas de calidad, genera en el sistema productivo un retraso, ya que en el animal se ve afectado el desarrollo y expresión genética del animal, ya sea en la ganancia de peso, crecimiento, madurez sexual, entre otros aspectos, que para la producción pecuaria son de vital importancia acortar estos periodos de tiempo para aumentar la producción.
         .cajon.color2.py-3.px-4.mt-3.mb-4       
           p.m-0 Es por esto que la utilización de suplementos puede ser una alternativa para disminuir esta problemática, teniendo en cuenta que no reemplazan ninguna alimentación o ración ya que lo que ellos hacen es suplir las necesidades o deficiencias de un alimento, ya sea en su componente vitamínico, mineral, energético, grado de digestibilidad, palatabilidad, etc., logrando mejorar dicho alimento para alcanzar las necesidades del animal.
@@ -312,21 +362,21 @@
     .row.justify-content-center.mb-5
       .col-lg-9
         .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
+          .tarjeta-avatar-b__img(data-aos="fade-right")
             img(src='@/assets/curso/tema6/img20.png' alt='AvatarTop')
-          .tarjeta.color10
+          .tarjeta.color10(data-aos="fade-left")
             .p-4
               p.m-0 <b>Etapa de producción del animal:</b> según las etapas en las que el animal se encuentra en la producción es necesario realizar suplementación, por ejemplo: animales en estado de gestación es recomendable realizar una suplementación mineral especialmente con calcio ya que su estado fisiológico requiere unos niveles mayores de este mineral, siendo este un condicionante de suplementación para lograr un objetivo productivo.
 
       .col-lg-9
         .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
+          .tarjeta-avatar-b__img(data-aos="fade-right")
             img(src='@/assets/curso/tema6/img21.png' alt='AvatarTop')
-          .tarjeta.color11
+          .tarjeta.color11(data-aos="fade-left")
             .p-4
               p.mt-5 <b>Características biológicas:</b> como la edad, etapa reproductiva, sexo entre otras, las cuales puede cambiar los requerimientos nutricionales de la especie. 
 
-    ol.lista-ol--cuadro
+    ol.lista-ol--cuadro(data-aos="fade-right")
       li 
         .lista-ol--cuadro__vineta
         h4 Manejo de praderas y forrajes.
@@ -335,13 +385,13 @@
     p El concepto de forraje es principalmente dado como toda aquella planta o residuo no procesado de este que sirve como fuente de alimentación animal.
     p.mb-5 Estas se dividen en gramíneas y leguminosas, las cuales aportan al animal una fuente importante de proteínas, vitaminas y un componente importante de fibra alimentaria . 
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-up-right")
       .col-lg-12
         .bg_3.p-4
           SlyderB.mb-5(:datos="datosSlyder")  
 
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-down-right")
         LineaTiempoD.color-primario.bg_11
           .row.justify-content-center(numero="1" titulo="Periodos de pastoreo")
             .col-md-11.mb-4.mb-md-0
@@ -438,7 +488,7 @@
                       span 3
                     | Ayuda a controlar de forma más efectiva el crecimiento de plantas no deseadas y malezas. 
 
-    ol.lista-ol--cuadro
+    ol.lista-ol--cuadro(data-aos="fade-right")
       li 
         .lista-ol--cuadro__vineta
         h4 Alimento balanceado.
@@ -446,7 +496,7 @@
     p.mb-5 La composición de los alimentos balanceados generalmente tiene una determinada concentración de ingredientes o materias primas, para así lograr satisfacer los requerimientos energéticos, proteicos, minerales entre otros. Es importante conocer las características nutricionales de un alimento para así identificar las interacciones que dicho alimento generará en el animal. La gran mayoría de materias primas provienen de los vegetales aportando diferentes valores nutricionales a un costo relativamente más económico. La ración se define como una provisión diaria de alimento o forraje la cual es instaurada por una dieta para así cumplir las necesidades del animal según su estado de desarrollo. Dentro de los nutrientes que están en las dietas de los animales se tienen: 
 
     .tarjeta.tarjeta--gris.p-4.mb-5.bg_12
-      LineaTiempoC.color-acento-contenido(text-small)
+      LineaTiempoC.color-acento-contenido(text-small)(data-aos="fade-right")
         .row.justify-content-center(titulo="Agua")
           .col-md-5.mb-4.mb-md-0.align-self-center
             p <b>Agua:</b> la cual se encuentra contenida en los alimentos.     
@@ -503,13 +553,13 @@
             figure
               img(src='@/assets/curso/tema6/img34.png', alt='Texto que describa la imagen')
 
-    ol.lista-ol--cuadro
+    ol.lista-ol--cuadro(data-aos="fade-right")
       li 
         .lista-ol--cuadro__vineta
         h4 Disponibilidad de agua
     
     .row.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         p El consumo de agua en las especies pecuarias es un recurso fundamental y esencial para su funcionamiento vital, ya que es necesaria para su regulación osmocelular, su consumo es dado en las diferentes especies por las necesidades para mantener el balance corporal y reponer los líquidos perdidos en las heces y orina, pérdidas evaporativas, más el agua retenida en líquidos de preñez y producción de leche. Es importante tener en cuenta las condiciones en las que se ofrece el agua, que sean condiciones óptimas y de buena calidad para el animal, y así prevenir enfermedades digestivas o patologías causadas por el agua contaminada. 
         p Los factores de requerimientos de agua y consumo son dados principalmente por tres (3) factores como:
         ol.lista-ol--cuadro
@@ -525,11 +575,11 @@
             .lista-ol--cuadro__vineta
               span c
             p.m-0 <b>Relativos del animal:</b> peso vivo, estado fisiológico, nivel reproductivo, consumo diario de materia seca. 
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema6/img35.png')
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bg_9
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bg_9(data-aos="fade-down-right")
       .row.justify-content-around.align-items-start(titulo="Factores medioambientales")
         .col-md-6.mb-4.mb-md-0
           p.ms-2 De los factores medioambientales es evidente que la temperatura es el más determinante, ya que en condiciones de verano siempre hay un aumento en el consumo de agua por parte de los animales pero también hay una mayor evaporación de los diferentes humedales o estadios de agua; por ende, se debe tener en cuenta para asegurar una disponibilidad de agua constante en estos tiempos, ya que en resumidas palabras aumenta el consumo y disminuye la disponibilidad por eso la importancia de reconocer estas situaciones y ofertar mayor cantidad de agua a los animales.      

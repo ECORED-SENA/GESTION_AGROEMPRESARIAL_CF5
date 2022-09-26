@@ -8,15 +8,15 @@
       h1(data-aos="fade-right") Legislación laboral
 
     .row.justify-content-between.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         p Para el desarrollo de la actividad productiva es necesario contar con varios recursos, entre los que se encuentran los de tipo económico, técnico, material, natural y tecnológico. Sin embargo, el principal recurso con el que se debe contar en la empresa pecuaria es el humano, ya que es el encargado de la implementación y puesta en marcha de las ideas plasmadas en el proyecto productivo.
         p De la correcta administración del talento humano y de la obtención de todo su potencial depende, en buena medida, la sostenibilidad de la explotación pecuaria.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         img.img-t(src='@/assets/curso/tema1/img01.svg', alt='')
 
     .row.justify-content-center
       .col-lg-10
-        .cajon.color-acento-contenido.bg_color1.p-3.mb-4
+        .cajon.color-acento-contenido.bg_color1.p-3.mb-4(data-aos="fade-up")
           .row.justify-content-center.align-items-center
             .col-auto 
               img.img-t(src='@/assets/curso/tema1/img02.svg', alt='')
@@ -25,7 +25,7 @@
 
     Separador
 
-    #t_1_1.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 1.1 Recurso humano  
 
     .row.justify-content-center.mb-4
@@ -59,7 +59,7 @@
 
     Separador
 
-    #t_1_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 1.2 Normativa      
 
     p La normatividad relacionada con temas laborales en el país es bastante extensa y tiene dentro de sus principales referentes la Constitución Política de Colombia y la promulgación del código sustantivo del trabajo. 
@@ -70,7 +70,7 @@
       h5 Tabla 1 
     span.ms-4 <em>Principales aspectos de normatividad laboral en Colombia</em>
     
-    .tabla-a.color-primario.mt-2.border_tabla1
+    .tabla-a.color-primario.mt-2.border_tabla1(data-aos="fade-down-right")
       table
         thead
           tr
@@ -170,39 +170,39 @@
             .tarjeta--container.row
               .col-auto.tarjeta-color.color7.p-4.w_1.bt_1.bt_radius1
                 .row.justify-content-center.mb-4
-                  .col-12
+                  .col-12(data-aos="fade-right")
                     figure
                       img.img-t.mx-auto(src='@/assets/curso/tema1/img05.svg')
               
               .col-md.tarjeta-color.color5.mb-4.mb-md-0.bt_radius2
                 .row.justify-content-center.mb-4
-                  .col-12                  
+                  .col-12(data-aos="fade-left")                  
                     h5.mb-3.mt-4 Decreto 1072 de 2015
                     p.m-0 Dentro de los aspectos normativos que más ocupan la atención tanto de empleados como de empleadores está el decreto 1072 de 2015 el cual <b>reglamenta todos los aspectos relacionados con el sistema de seguridad y salud en el trabajo.</b>
             
             .tarjeta--container.row
               .col-auto.tarjeta-color.color3.p-4.w_1
                 .row.justify-content-center.mb-4
-                  .col-12
+                  .col-12(data-aos="fade-right")
                     figure
                       img.img-t.mx-auto(src='@/assets/curso/tema1/img06.svg')
               
               .col-md.tarjeta-color.color6.mb-4.mb-md-0
                 .row.justify-content-center.mb-4
-                  .col-12                  
+                  .col-12(data-aos="fade-left")                  
                     h5.mb-3.mt-4 Objeto de este decreto
                     p.m-0 El decreto 1072 tiene por objeto <b>anticipar, reconocer, evaluar y controlar los riesgos</b> que puedan afectar la seguridad y la salud en los espacios laborales.
 
             .tarjeta--container.row
               .col-auto.tarjeta-color.color4.p-4.w_1.bt_radius3
                 .row.justify-content-center.mb-4
-                  .col-12
+                  .col-12(data-aos="fade-right")
                     figure
                       img.img-t.mx-auto(src='@/assets/curso/tema1/img07.svg')
               
               .col-md.tarjeta-color.color5.bt_radius4
                 .row.justify-content-center.mb-4
-                  .col-12                  
+                  .col-12(data-aos="fade-left")                  
                     h5.mb-3.mt-4 Conocimiento de la normativa aplicable
                     p.m-0 Como parte de la gestión administrativa de la empresa pecuaria, es importante conocer la normativa aplicable al sector, en especial aquella relacionada con las condiciones del entorno físico de los trabajadores, su bienestar, el acceso a condiciones justas y el desarrollo pleno de sus potencialidades. 
   

@@ -48,6 +48,9 @@
     background-color: #DBE8CD
     color: #12263F
 
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    background-color: #F8F8F8!important
+
 .border_tabla1
   td, th 
     border: 3px solid #E1E1E1
@@ -144,11 +147,6 @@
 .bg_3
   background-color: #E8E8E8
   border-radius: 31px
-
-.pasos-a__circle 
-    width: 98px
-    height: 98px
-    min-width: 100px
 
 .pasos-a.color-acento-botones .pasos-a__circle div 
     color: #12263F
@@ -250,8 +248,10 @@
 
 .mt_2
   margin-top: -10%
-  @media (max-width: $bp-max-md)
+  @media (max-width: $bp-max-xs)
     margin-top: 25%
+  @media (min-width: $bp-min-sm) and (max-width: $bp-max-md)
+    margin-top: -5% 
 
 .color9
   background-color: #B0C0D2
@@ -325,11 +325,95 @@
   border-bottom-left-radius: 20px
   border-bottom-right-radius: 20px
   height: 25%
-  @media (max-width: $bp-max-md)
-    height: 40%
+  @media screen and ( max-width: 420px )
+    height: 42%
+  @media (min-width: $bp-min-md) and (max-width: $bp-max-md)
+    height: 29%
+    width: 97.7%
 
 .color_thead 
     border-top: 3px solid
     border-top-color: #CED371
 .color13
     background-color: #E8E8E8
+
+.bg_17
+  background-color: #F6F6F6
+
+.tabs-c__tab 
+    border-bottom: 6px solid #AFAFAF
+.tabs-c__tab--active 
+    border-bottom: 6px solid !important
+    font-size: 18px
+    font-weight: bold
+.tabs-c__tab:after 
+    background-color: #707070
+
+.bg_18
+    background-image: url("../assets/curso/tema2/img14.svg")
+    background-repeat: no-repeat
+    background-size: cover
+
+.bg_fondo-t3
+  position: relative
+  .row, .row, separador, .titulo-segundo, .row, p, .titulo-sexto, .tabla-a, .row         
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: 6rem
+    left: -48px
+    width: calc( 100% + 6rem)
+    height: 87%
+    background-image: url("../assets/curso/tema3/imgfondo.svg")
+    background-repeat: no-repeat
+    background-size: cover
+
+.bg_color6
+  background-color: #FFFFFF
+
+.color14
+  background-color: #FFB500!important
+
+.bg_19
+  background-color: #528911
+  border-radius: 0px 62px 0px 0px
+  height: 155px
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    height: 180px
+.bg_20
+  background-color: #B55A72
+  border-radius: 0px 62px 0px 0px
+  height: 155px
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    height: 180px
+.bg_21
+  background-color: #78B62E
+  border-radius: 0px 62px 0px 0px
+  height: 155px
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    height: 180px
+.bg_22
+  background-color: #F6F6F6
+  border-radius: 0px 0px 0px 62px
+  height: 139px
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    height: 184px
+.m_bottom1
+  margin-bottom: -4px!important
+
+.bg_23
+  background-image: url("../assets/curso/tema7/img28.svg")!important
+  background-repeat: no-repeat
+  background-size: cover
+
+.m_left1
+  margin-left: 0%
+  @media (max-width: $bp-max-sm)
+    margin-left: -5%
+  @media (max-width: $bp-max-xs)
+    margin-left: -1%
+
+
+  

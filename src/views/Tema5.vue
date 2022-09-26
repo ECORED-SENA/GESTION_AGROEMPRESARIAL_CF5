@@ -9,7 +9,7 @@
 
     .bg_fondo-t5
       .row.mb-4
-        .col-lg-6
+        .col-lg-6(data-aos="fade-right")
           p El plan sanitario en las producciones pecuarias es de gran importancia, puesto que este garantiza que se disminuyan los problemas que puedan afectar el sistema de producción y afecten la capacidad productiva y reproductiva en las explotaciones.
           .bg_4.py-3.px-4.mt-3.mb-4       
             p.m-0 Este plan debe estar enfocado en establecer actividades que contribuyan de manera sistemática, ordenada, integrada y práctica con la prevención, el control y la erradicación de enfermedades de control oficial y de gran incidencia en las producciones pecuarias. En síntesis, el plan sanitario debe establecer actividades que estén diseñadas en la mitigación de factores de riesgo que puedan afectar la sanidad de los animales. 
@@ -22,7 +22,7 @@
 
       .row.mb-5
         .col-lg-11
-          TabsA.color-acento-botones   
+          TabsA.color-acento-botones(data-aos="fade-right")   
             .tarjeta.color8.p-5(titulo="Alcance")
               .row
                 .col-xl-6.mb-4
@@ -79,20 +79,20 @@
           span.ms-4 <em>Estructura de un plan sanitario</em>    
 
           .row.justify-content-center.mt-5
-            .col-lg-12
+            .col-lg-12(data-aos="fade-down-right")
               h4.text-center.mb-5 Pasos para la realización de un plan sanitario
               figure
                 img(src='@/assets/curso/tema5/img07.svg', alt='Pasos para la realización de un plan sanitario')
 
       Separador
 
-      #t_5_1.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+      #t_5_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
           h2 5.1 Prevención de enfermedades de control oficial       
 
       p Las enfermedades de control oficial son aquellas que, de acuerdo con lo establecido en las normas internacionales adoptadas por Colombia, se establecen como de interés en el ámbito nacional y se disponen programas de prevención, control y erradicación. De igual manera, se establece su notificación obligatoria y registro. A continuación, encuentra el listado de enfermedades y sus características principales:
 
       .row.justify-content-center.mb-5
-        .col-lg-12
+        .col-lg-12(data-aos="fade-down-right")
           figure
             img(src='@/assets/curso/tema5/imginfografica.svg', alt='Texto que describa la imagen')  
 
@@ -191,7 +191,7 @@
                 
       .row.justify-content-center.mb-5
         .col-lg-10
-          .cajon.color-acento-contenido.bg_color1.p-3.mb-4
+          .cajon.color-acento-contenido.bg_color1.p-3.mb-4(data-aos="fade-down")
             .row.justify-content-center.align-items-center
               .col-auto 
                 img.img-t(src='@/assets/curso/tema1/img02.svg', alt='')
@@ -213,17 +213,17 @@
                   p <b>Sistema de alertas tempranas</b>
                   p.text-white Instituto Colombiano Agropecuario. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Sistema-de-alertas-tempranas.pdf')" target="_blank")
+                  a.boton.color-primario.color14(:href="obtenerLink('downloads/Sistema-de-alertas-tempranas.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
     Separador
 
-    #t_5_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_5_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 5.2 Área de cuarentena
 
     .row.mb-4
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         p La cuarentena pecuaria comprende todas aquellas medidas encaminadas a regular, restringir o prohibir la producción o la importación de animales y sus productos y restringir el movimiento o existencia de estos, con la finalidad de prevenir la introducción, dispersión o diseminación de enfermedades u otros organismos que afectan o puedan afectar la sanidad animal del país.
         p El área de cuarentena es un área física y específica de la producción en donde se deben cumplir unas condiciones de aislamiento de los animales que se van a ingresar nuevos al predio o que se sospecha que tienen alguna enfermedad o condición contagiosa.
         p En cuanto a los requisitos estructurales, esta área debe estar separada de otras zonas donde haya animales, y por supuesto, a una distancia prudente, dependiendo de la especie animal y la capacidad de difusión en el aire de posibles agentes patógenos.
@@ -234,11 +234,11 @@
 
     Separador
 
-    #t_5_3.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_5_3.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 5.3 Almacenamiento y transporte de productos biológicos y medicamentos veterinarios
 
     .row.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         .cajon.color2.py-3.px-4.mt-3.mb-4       
           p.m-0 Los medicamentos son sustancias utilizadas para curar a los animales y su administración puede ser interna o externa. Por otra parte, los biológicos son sustancias utilizadas para la prevención de enfermedades, como por ejemplo las vacunas. Los medicamentos veterinarios que se utilizan y comercializan en Colombia, deben estar registrados ante el Instituto Colombiano Agropecuario (ICA) y deberán emplearse aplicando las buenas prácticas para el uso de medicamentos veterinarios.
         p Pueden clasificarse de acuerdo con: su naturaleza (farmacológico o inmunológico); su vía de administración (oral, inyectable, ocular, por nebulización), sus propiedades (analgésico, antiparasitario, anestésico), su forma farmacéutica (polvo oral, premezcla medicamentosa, aerosol, comprimido, entre otros).
@@ -247,7 +247,7 @@
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema5/img09.png')
 
-    ol.lista-ol--cuadro.mb-4
+    ol.lista-ol--cuadro.mb-4(data-aos="fade-right")
       li 
         .lista-ol--cuadro__vineta
         h4 Formas de presentación de los medicamentos
@@ -275,11 +275,11 @@
 
     Separador
 
-    #t_5_4.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_5_4.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 5.4 Técnicas para aplicación de medicamentos veterinarios
         
     .row.mb-4
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         p Se debe tener muy en cuenta que, “con el uso de medicamentos en las especies pecuarias, se pueden generar algunos riesgos que están principalmente vinculados con su manipulación y administración” (Invima, 2020). Por lo anterior, las autoridades competentes deben establecer y aplicar la regulación sobre las buenas prácticas de uso de medicamentos veterinarios.
         .cajon.color2.py-3.px-4.mt-3.mb-4       
           p.m-0 Para poder aplicar las técnicas de aplicación de medicamentos veterinarios se deben tener en cuenta factores como la seguridad, el costo, la efectividad, la especie que se vaya a tratar, el tipo de enfermedad (agudo o crónico), el manejo (dominancia sobre el animal), la vía de administración y la forma farmacéutica.  
@@ -291,7 +291,7 @@
       .col-lg-6.mb-4.mb-lg-0
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema5/img12.png')
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         p Las vías de aplicación de medicamentos varían dependiendo de la especie animal; sin embargo, las principales vías de aplicación de medicamentos son: 
         ul.lista-ul--color.mb_1
           li.mb_1 
@@ -305,7 +305,7 @@
             p <b>In ovo:</b> se inyecta a los embriones en su último estado de incubación.
 
     .row.mb-4
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         ul.lista-ul--color.mb_1
           li.mb_1 
             i.fas.fa-check
@@ -324,7 +324,7 @@
       .col-lg-6.mb-4.mb-lg-0
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema5/img14.png')
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         ul.lista-ul--color.mb_1
           li.mb_1 
             i.fas.fa-check
@@ -344,10 +344,10 @@
     .titulo-quinto.color-acento-contenido
       h4.mb-4 Ángulos de aplicación Parenteral
 
-    ImagenInfograficaB.color-primario.mb-5
+    ImagenInfograficaB.color-primario.mb-5(data-aos="fade-down-right")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/tema5/imginfografica2.svg', alt='Texto que describa la imagen')        
+          img(src='@/assets/curso/tema5/imginfografica2.png', alt='Texto que describa la imagen')        
 
       div(x="20.5%" y="40.5%" tooltip="Intramuscular" numero="1")
         .h5.mb-4.mt-5 Intramuscular
@@ -367,7 +367,7 @@
 
     p.mb-5 Posterior a definir la técnica a trabajar se requiere definir la vía de administración y en la siguiente infografía se trabajan las más frecuentes:
 
-    SlyderF(columnas="col-lg-8 col-xl-6")
+    SlyderF(columnas="col-lg-8 col-xl-6")(data-aos="fade-up")
       .row.justify-content-center.mb-3
         .col-12
           .tarjeta.tarjeta-foto-hover
@@ -468,23 +468,23 @@
 
     Separador
 
-    #t_5_5.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_5_5.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 5.5 Tiempo de retiro
 
     p.mb-5 Este tiempo que debe reposar aislado un animal desde la hora de aplicación del medicamento veterinario hasta la eliminación del medicamento del cuerpo su organismo logrando disminuir como mínimo hasta que la concentración del producto médico no infrinja el Límite Máximo de Residuos (LMR) en los tejidos del animal, esto tiene el fin de evitar que esa carne o esos productos dependientes de los animales no sean dañosos para la salud de los seres humanos o los animales con los que el animal intervenido tenga contacto. Este tiempo debe ser respetado tal como se enuncia a continuación:
 
     figure
-    .video
+    .video(data-aos="fade-up")
       iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     figcaption Video: Leyenda del video
 
     Separador
 
-    #t_5_6.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_5_6.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 5.6 Notificación de efectos adversos
 
     .row.align-items-center.mb-4
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         p Las notificaciones o denuncias de casos que se presentan en los animales con sintomatología compatible o atribuible a enfermedades de notificación oficial según Resolución ICA 3714 del 2015, debe realizarse en las oficinas del Instituto Colombiano Agropecuario – ICA, las personas que se encuentran en la obligación de realizar esta acción son:
         ul.lista-ul--color.mb_1
           li.mb_1 
@@ -508,11 +508,11 @@
 
     Separador
 
-    #t_5_7.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_5_7.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 5.7 Guía sanitaria de movilización interna
 
     .row.mb-4
-        .col-lg-9
+        .col-lg-9(data-aos="fade-right")
           p Para garantizar las condiciones de salubridad y seguridad de los animales, el ICA diseñó un formato denominado Guía Sanitaria de Movilización Interna (GSMI). Este documento contiene información sobre el lugar de origen de los animales y las condiciones sanitarias en las que se entregan los animales; esto último con el fin de evitar propagación de enfermedades. En este formato se consignan datos como número de animales, género, predio de procedencia, destino final (transporte a otro predio o sacrificio), registro de vacunación, ruta de transporte, destino final.      
           .cajon.color-acento-contenido.bg_color1.p-3.mb-4            
             p.m-0.ms-2 Para que el ICA pueda emitir el aval para la guía de movilización, es necesario cumplir con los siguientes requisitos: que no haya presencia de focos de enfermedades en el predio, que este se encuentre registrado oficialmente ante el ICA, registro de vacunación vigente, inspecciones clínicas a los animales, registro de cuarentenas.             
@@ -523,7 +523,7 @@
     p.mb-5 Es de aclarar que esta guía solamente es válida para un solo vehículo y para un solo trayecto y aplica para la fecha autorizada. Sin embargo, un solo vehículo podrá transportar animales con diferentes GSMI, de diferentes orígenes y con diferentes destinos y se debe cumplir con los siguientes requisitos:
 
     .row.justify-content-center.mb-4
-      .col-lg-5
+      .col-lg-5(data-aos="fade-right")
         ol.lista-ol--cuadro.lista-ol--separador
           li             
           li 
@@ -535,7 +535,7 @@
               span 2
             p.mb-4 Que se identifiquen los lugares de origen y de destino en la ruta para la movilización de animales.
           li
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         ol.lista-ol--cuadro.lista-ol--separador
           li
           li 
@@ -550,7 +550,7 @@
 
     p.mb-4 La expedición de la GSMI se puede expedir de dos formas:
     
-    .tabla-a.color-primario.mt-2.border_tabla1.mb-5
+    .tabla-a.color-primario.mt-2.border_tabla1.mb-5(data-aos="fade-down-right")
       table
         thead
           tr
