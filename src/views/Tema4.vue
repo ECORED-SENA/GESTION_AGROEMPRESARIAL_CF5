@@ -40,10 +40,11 @@
 
       p.mb-5 Los elementos básicos del programa de producción se pueden agrupar así:        
 
-      .row.mb-5(data-aos="fade-up-right")
-        .col-lg-12
-          .bg_3.p-4
-            SlyderB.mb-5(:datos="datosSlyder")  
+      .bg_medida-sly.ms-5.ms-lg-0
+        .row.mb-5(data-aos="fade-up-right")
+          .col-lg-12
+            .bg_3.p-1.p-lg-5
+              SlyderB(:datos="datosSlyder")  
 
     p La formulación del programa de producción es una labor que demanda un alto nivel de concentración de parte del equipo de trabajo de la empresa pecuaria y que requiere del conocimiento profundo de sus potencialidades y necesidades.  
     p.mb-5 Para obtener un programa de producción eficiente y que responda a las necesidades reales de la empresa es fundamental tener en cuenta los siguientes pasos:

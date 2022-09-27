@@ -87,7 +87,7 @@
             .bg_19.p-4
               p.mt-3.m-0.text-white.ms-2 <b>Físicos</b>
               p.mb-2.text-white.ms-2 Agentes causales por el medio ambiente.
-            .bg_22.p-3.shadow-sm
+            .bg_22.p-3.shadow
               ul.lista-ul
                 li
                   ul
@@ -107,7 +107,7 @@
             .bg_20.p-4
               p.mb-0.text-white.ms-2 <b>Químicos</b>
               p.mb-0.text-white.ms-2 Alteración causada por accion de los cambios quimicos de las materias primas.
-            .bg_22.p-3.px-2.shadow-sm
+            .bg_22.p-3.px-2.shadow
               ul.lista-ul
                 li
                   ul
@@ -124,7 +124,7 @@
             .bg_21.p-4(data-aos="flip-down")
               p.mb-0.text-white.ms-2 <b>Biológicos</b>
               p.mb-0.text-white.ms-2 Alteración causada por agentes naturales producto de la descomposición.
-            .bg_22.p-3.shadow-sm
+            .bg_22.p-3.shadow
               ul.lista-ul
                 li
                   ul
@@ -385,10 +385,11 @@
     p El concepto de forraje es principalmente dado como toda aquella planta o residuo no procesado de este que sirve como fuente de alimentación animal.
     p.mb-5 Estas se dividen en gramíneas y leguminosas, las cuales aportan al animal una fuente importante de proteínas, vitaminas y un componente importante de fibra alimentaria . 
 
-    .row.mb-5(data-aos="fade-up-right")
-      .col-lg-12
-        .bg_3.p-4
-          SlyderB.mb-5(:datos="datosSlyder")  
+    .bg_medida-sly.ms-5.ms-lg-0
+      .row.mb-5(data-aos="fade-up-right")
+        .col-lg-12
+          .bg_3.p-1.p-lg-5
+            SlyderB(:datos="datosSlyder")  
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-down-right")

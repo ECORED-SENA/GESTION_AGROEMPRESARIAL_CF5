@@ -168,7 +168,7 @@
         .row.justify-content-center
           .col-lg-12
             .tarjeta--container.row
-              .col-auto.tarjeta-color.color7.p-4.w_1.bt_1.bt_radius1
+              .col-auto.tarjeta-color.color7.p-4.w_1.bt_1.bt_radius1.bt_radius5
                 .row.justify-content-center.mb-4
                   .col-12(data-aos="fade-right")
                     figure
@@ -200,9 +200,9 @@
                     figure
                       img.img-t.mx-auto(src='@/assets/curso/tema1/img07.svg')
               
-              .col-md.tarjeta-color.color5.bt_radius4
+              .col-md.tarjeta-color.color5.bt_radius4.bt_radius6 
                 .row.justify-content-center.mb-4
-                  .col-12(data-aos="fade-left")                  
+                  .col-12(data-aos="fade-left")                 
                     h5.mb-3.mt-4 Conocimiento de la normativa aplicable
                     p.m-0 Como parte de la gestión administrativa de la empresa pecuaria, es importante conocer la normativa aplicable al sector, en especial aquella relacionada con las condiciones del entorno físico de los trabajadores, su bienestar, el acceso a condiciones justas y el desarrollo pleno de sus potencialidades. 
   

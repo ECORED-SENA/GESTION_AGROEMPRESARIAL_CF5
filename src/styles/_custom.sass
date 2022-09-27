@@ -83,13 +83,27 @@
   border-top-left-radius: 15px 
 
 .bt_radius2
-  border-top-right-radius: 15px 
+  border-top-right-radius: 15px
+  @media (max-width: $bp-max-md)
+    border-top-right-radius: 0px 
 
 .bt_radius3
   border-bottom-left-radius: 15px
+  @media (max-width: $bp-max-md)
+    border-bottom-left-radius: 0px
 
 .bt_radius4
   border-bottom-right-radius: 15px
+
+.bt_radius5
+  border-top-right-radius: 0px
+  @media (max-width: $bp-max-md)
+    border-top-right-radius: 15px 
+
+.bt_radius6
+  border-bottom-left-radius: 0px
+  @media (max-width: $bp-max-md)
+    border-bottom-left-radius: 15px
 
 .mb_1
   margin-bottom: 3px!important
@@ -142,12 +156,38 @@
     height: 95%
     background-image: url("../assets/curso/tema4/imgfondo-t4.svg")
     background-repeat: no-repeat
-    background-size: cover  
+    background-size: cover     
+
+.bg_medida-sly .row
+    margin-right: 0%
+    @media (max-width: $bp-max-md) 
+        margin-right: 5% 
 
 .bg_3
-  background-color: #E8E8E8
-  border-radius: 31px
-
+  position: relative
+  SlyderB
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: 0%
+    left: 0%
+    width: 100%
+    height: 100%
+    border-radius: 31px
+    background-color: #E8E8E8  
+    @media (max-width: $bp-max-md)
+      top: -4%
+      left: -8%
+      width: calc( 100% + 5rem)
+      height: 108%
+    @media (max-width: $bp-max-xs)
+      top: -3%
+      left: -10%
+      width: calc( 100% + 3rem)
+      height: 105%
+  
 .pasos-a.color-acento-botones .pasos-a__circle div 
     color: #12263F
 
@@ -415,5 +455,18 @@
   @media (max-width: $bp-max-xs)
     margin-left: -1%
 
+//.slyder__action
+  justify-content: flex-end
+  @media screen and ( max-width: 420px )
+    justify-content: flex-start
 
-  
+.m_right
+  margin-right: 15%
+
+.slyder-f__main 
+  @media (min-width:$bp-min-md) and (max-width:$bp-max-lg)
+    width: 84%
+
+
+
+

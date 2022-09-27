@@ -372,14 +372,14 @@
         .col-12
           .tarjeta.tarjeta-foto-hover
             .tarjeta-foto-hover__img: img(src='@/assets/curso/tema5/img15.png')
-            .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3.bg_color5
+            .tarjeta-foto-hover__titulo.p-3.bg_color5
               h4.text-center.mb-0 Oral    
 
       .row.justify-content-center.mb-3
         .col-12
           .tarjeta.tarjeta-foto-hover
             .tarjeta-foto-hover__img: img(src='@/assets/curso/tema5/img16.png')
-            .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3.bg_color5
+            .tarjeta-foto-hover__titulo.p-3.bg_color5
               h4.text-center.mb-0 Oral  
 
       .row.justify-content-center.mb-3
