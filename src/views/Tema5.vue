@@ -473,10 +473,52 @@
 
     p.mb-5 Este tiempo que debe reposar aislado un animal desde la hora de aplicación del medicamento veterinario hasta la eliminación del medicamento del cuerpo su organismo logrando disminuir como mínimo hasta que la concentración del producto médico no infrinja el Límite Máximo de Residuos (LMR) en los tejidos del animal, esto tiene el fin de evitar que esa carne o esos productos dependientes de los animales no sean dañosos para la salud de los seres humanos o los animales con los que el animal intervenido tenga contacto. Este tiempo debe ser respetado tal como se enuncia a continuación:
 
-    figure
-    .video(data-aos="fade-up")
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    figcaption Video: Leyenda del video
+    PasosA.color-primario.mb-5(tipo="n")
+      .row.justify-content-center
+        .col-lg-7.col-md-12.mb-4.mb-lg-0
+          p.mb-0 La mayoría de los medicamentos veterinarios tienen establecidos los tiempos de retiro en las etiquetas de los productos. Como se mencionó anteriormente, el tiempo de retiro no garantiza que no existan residuos de medicamentos en los productos destinados para el consumo humano, sino que los niveles de este medicamento se encuentran por debajo del LMR.
+        .col-lg-4.col-md-12
+          figure
+            img(src='@/assets/curso/tema5/img31.png')
+      .row.justify-content-center
+        .col-lg-4.mb-4.mb-lg-0.col-md-12
+          figure
+            img(src='@/assets/curso/tema5/img32.png')
+        .col-lg-7.col-md-12
+          p.mb-4 Cabe resaltar que la FAO en su Codex Alimentarius CX/MRL 2-2018, establece los límites máximos de residuos y las recomendaciones sobre la gestión de riesgos para residuos de medicamentos veterinarios en los alimentos. De igual manera, en Colombia existe la Resolución 1382 de 2013, por la cual se establecen los límites máximos para residuos de medicamentos veterinarios en los alimentos de origen animal, destinados al consumo humano.
+          .row.justify-content-end
+            .col-auto
+              a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
+                span Anexo
+                .indicador--click(v-if="mostrarIndicador")            
+                a.lnk(@click="modal1 = true") 
+          
+          ModalA(:abrir-modal.sync="modal1")
+            .row.justify-content-center          
+              .col-md-12
+                figure
+                  img(src='@/assets/curso/tema5/img36.png', alt='')
+
+      .row.justify-content-center
+        .col-lg-7.col-md-12.mb-4.mb-lg-0
+          p.mb-0 Los medicamentos se deben utilizar de forma responsable, ya que existen algunos productores que tienen la creencia que siempre se debe aplicar mucho más de la dosis recomendada en la etiqueta y, por consiguiente, el tiempo de retiro será diferente, ya que este deberá ser ajustado a la cantidad de medicamento que se administró al animal.
+        .col-lg-4.col-md-12
+          figure
+            img(src='@/assets/curso/tema5/img33.png')
+
+      .row.justify-content-center
+        .col-lg-4.mb-4.mb-lg-0.col-md-12
+          figure
+            img(src='@/assets/curso/tema5/img34.png')
+        .col-lg-7.col-md-12
+          p.mb-0 En el caso de la carne, el tiempo de retiro debe ser el transcurrido entre la última aplicación de un medicamento veterinario a un animal y el momento de sacrificio de este para consumo humano.
+
+      .row.justify-content-center
+        .col-lg-7.col-md-12.mb-4.mb-lg-0
+          p.mb-0 En cuanto a la leche, los huevos y la miel el tiempo de retiro hace referencia al periodo durante el cual debe descartarse la leche, los huevos o la miel, esto para que los residuos de medicamento y/o sus metabolitos, alcancen niveles de inocuidad aceptados internacionalmente.
+        .col-lg-4.col-md-12
+          figure
+            img(src='@/assets/curso/tema5/img35.png')
 
     Separador
 
@@ -572,15 +614,7 @@
               p.ms-3 <b>Paso 2:</b> Diligenciar el acta de confidencialidad.
               p.ms-3 <b>Paso 3:</b> Enviar el acta escaneada y el documento de identificación al correo electrónico mesadeayuda.sigma@ica.gov.co.
               p.ms-3 En un tiempo estimado de 24 horas, recibirá a vuelta de correo el usuario y contraseña para poder ingresar a Sigma en línea y continuar con el trámite para expedir la guía de movilización.
-
-          
-    
-
-
-
-
-
-            
+                          
 
 
 </template>
@@ -589,7 +623,8 @@
 export default {
   name: 'Tema5',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {
