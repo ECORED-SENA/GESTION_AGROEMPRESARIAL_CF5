@@ -38,7 +38,7 @@
         .row.justify-content-lg-center.align-items-center(titulo="Paso 3")
           .col-md-5.col-10.mb-4.mb-md-0
             p <b>Paso 3: Se debe realizar el corte y desinfección del ombligo</b> 
-            p Se debe realizar el corte y desinfección del ombligo: Se recomienda desinfectar el ombligo tan pronto como sea posible después del nacimiento para prevenir enfermedades. Mojar el ombligo con 7% de yodo es el mejor método para desinfectar. La solución del yodo actúa para prevenir la infección. 
+            p Se recomienda desinfectar el ombligo tan pronto como sea posible después del nacimiento para prevenir enfermedades. Mojar el ombligo con 7% de yodo es el mejor método para desinfectar. La solución del yodo actúa para prevenir la infección. 
           .col-md-4.col-10
             figure
               img(src='@/assets/curso/tema7/img04.png', alt='Texto que describa la imagen')
@@ -70,7 +70,7 @@
     Separador
 
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
-        h2 7.1 Técnicas de manejo del destete (Propiedades del calostro) 
+        h2 7.1 Técnicas de manejo del destete 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
@@ -125,7 +125,7 @@
     Separador
 
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
-        h2 7.2 Prácticas de Manejo Animal (descorné, descolmillada, corte de cola y castración)
+        h2 7.2 Prácticas de manejo animal
 
     .row.mb-4
       .col-lg-6(data-aos="fade-right")
@@ -161,7 +161,7 @@
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 Cauterización química
-            p se realiza mediante el uso de compuestos químicos vendidos comercialmente en pastas, soluciones, potasio parafinado entre otras, estas se pueden emplear en terneros desde los 3 a 14 días, esta deberá hacerse apenas se evidencia la yema del cuerno, es importante realizar el corte del pelo y procurar que el compuesto no entre en contacto con la piel, después se debe frotar presionando durante 15 a 20 segundos hasta que se evidencie la desaparición de la yema o un sangrado. Posterior a este pasando unos días se crea una costra seca que más o menos a los 25 y 30 días se desprende junto con el rudimento del cuerno.         
+            p Se realiza mediante el uso de compuestos químicos vendidos comercialmente en pastas, soluciones, potasio parafinado entre otras, estas se pueden emplear en terneros desde los 3 a 14 días, esta deberá hacerse apenas se evidencia la yema del cuerno, es importante realizar el corte del pelo y procurar que el compuesto no entre en contacto con la piel, después se debe frotar presionando durante 15 a 20 segundos hasta que se evidencie la desaparición de la yema o un sangrado. Posterior a este pasando unos días se crea una costra seca que más o menos a los 25 y 30 días se desprende junto con el rudimento del cuerno.         
           .col-md-5
             figure
               img.img-t.m-auto(src='@/assets/curso/tema7/img16.svg', alt='Texto que describa la imagen')   
@@ -170,7 +170,7 @@
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 Descornado eléctrico
-            p Se  emplea  en  terneros  de  1  a  5  semanas  de  edad,  e  inclusive  en  terneros  antes  de  cumplir  los  4  meses,  o en   cuernos  de  menos  de  una  pulgada  de  largo.  Durante  esta  edad  es  fácil  distinguir  el  botón  en  su  inserción  al cráneo. Conectar el equipo a una  batería de 12 voltios o 24 voltios, a una fuente de electricidad según el aparato  y seguir las recomendaciones del fabricante para su uso, Para obtener buenos resultados debe de permanecer conectado hasta alcanzar el calor máximo antes de usarlo y mantenerlo reconectado entre el descornado de un ternero y el siguiente. Técnica Aplicar el descornador caliente sobre la yema del cuerno hasta que aparezca un anillo de color de cobre que rodea completamente el botón del cuerno o el cuerno pequeño, esto suele aparecer a los 10 a 20 seg., donde se desprende un olor desagradable de pelo y piel chamuscado. Se repite en el otro cuerno. Se emplea en terneros de 1 a 5 semanas. (Goicochea, 2016)         
+            p Se  emplea  en  terneros  de  1  a  5  semanas  de  edad,  e  inclusive  en  terneros  antes  de  cumplir  los  4  meses,  o en   cuernos  de  menos  de  una  pulgada  de  largo.  Durante  esta  edad  es  fácil  distinguir  el  botón  en  su  inserción  al cráneo. Conectar el equipo a una  batería de 12 voltios o 24 voltios, a una fuente de electricidad según el aparato  y seguir las recomendaciones del fabricante para su uso, Para obtener buenos resultados debe de permanecer conectado hasta alcanzar el calor máximo antes de usarlo y mantenerlo reconectado entre el descornado de un ternero y el siguiente. Técnica Aplicar el descornador caliente sobre la yema del cuerno hasta que aparezca un anillo de color de cobre que rodea completamente el botón del cuerno o el cuerno pequeño, esto suele aparecer a los 10 a 20 seg., donde se desprende un olor desagradable de pelo y piel chamuscado. Se repite en el otro cuerno. Se emplea en terneros de 1 a 5 semanas. (Goicochea, 2016).        
           .col-md-5
             figure
               img.img-t.m-auto(src='@/assets/curso/tema7/img17.svg', alt='Texto que describa la imagen')              
@@ -255,7 +255,7 @@
     Separador
 
     #t_7_3.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
-        h2 7.3 Sistema de identificación animal (registro)
+        h2 7.3 Sistema de identificación animal 
 
     p.mb-5 La identificación de los animales es una práctica de manejo muy eficiente para los sistemas productivos modernos donde se puede hacer un seguimiento completo de un animal y realizar un manejo sanitario adecuado en caso de requerirlo. Los tipos de identificación o marcaje son de acuerdo con el sistema productivo, especie, requerimiento de la ley, entre otros factores que condicionan realizar una marca en el animal. 
 

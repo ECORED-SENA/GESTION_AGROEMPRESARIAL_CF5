@@ -84,7 +84,7 @@
       .col-lg-10
         .row.justify-content-center.align-items-center.mb-5.mt_2
           .col-lg-3        
-            .bg_19.p-4
+            .bg_19.px-4.py-3.py-lg-4.py-md-3
               p.mt-3.m-0.text-white.ms-2 <b>Físicos</b>
               p.mb-2.text-white.ms-2 Agentes causales por el medio ambiente.
             .bg_22.p-3.shadow
@@ -93,7 +93,7 @@
                   ul
                     li.m_bottom1 
                       i.lista-ul__vineta
-                      | Macánicas.
+                      | Mecánicas.
                     li.m_bottom1 
                       i.lista-ul__vineta
                       | Temperatura.
@@ -106,7 +106,7 @@
           .col-lg-3.my-3        
             .bg_20.p-4
               p.mb-0.text-white.ms-2 <b>Químicos</b>
-              p.mb-0.text-white.ms-2 Alteración causada por accion de los cambios quimicos de las materias primas.
+              p.mb-0.text-white.ms-2 Alteración causada por acción de los cambios químicos de las materias primas.
             .bg_22.p-3.px-2.shadow
               ul.lista-ul
                 li
@@ -383,7 +383,7 @@
 
     p.m-0 El manejo de praderas y forrajes es una de las principales problemáticas en la producción ganadera bovina, ya que el mal manejo de estas puede generar una compactación del suelo por sobrepastoreo de los animales; por ende, la importancia de conocer y manejar periodos de pastoreo adecuados con sistema de rotación de potreros y periodos de descanso donde brindaran un mejor manejo de las praderas para ofrecer al animal las mejores condiciones nutricionales que la pradera puede ofertar.
     p El concepto de forraje es principalmente dado como toda aquella planta o residuo no procesado de este que sirve como fuente de alimentación animal.
-    p.mb-5 Estas se dividen en gramíneas y leguminosas, las cuales aportan al animal una fuente importante de proteínas, vitaminas y un componente importante de fibra alimentaria . 
+    p.mb-5 Estas se dividen en gramíneas y leguminosas, las cuales aportan al animal una fuente importante de proteínas, vitaminas y un componente importante de fibra alimentaria. 
 
     .bg_medida-sly.ms-5.ms-lg-0
       .row.mb-5(data-aos="fade-up-right")
@@ -547,9 +547,9 @@
             figure
               img(src='@/assets/curso/tema6/img33.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-lg-center.align-items-center(titulo="Proteinas y aminoácidos")
+        .row.justify-content-lg-center.align-items-center(titulo="Proteínas y aminoácidos")
           .col-md-5.col-10.mb-4.mb-md-0
-            p <b>Proteinas y aminoácidos:</b> que se obtienen de acuerdo a como esten disponibles los porcentajes en los productos provenientes.
+            p <b>Proteínas y aminoácidos:</b> que se obtienen de acuerdo a como estén disponibles los porcentajes en los productos provenientes.
           .col-md-5.col-10
             figure
               img(src='@/assets/curso/tema6/img34.png', alt='Texto que describa la imagen')

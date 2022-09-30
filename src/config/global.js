@@ -200,7 +200,7 @@ export default {
         nombreRuta: 'tema8',
         icono: 'far fa-file-alt',
         numero: '8',
-        titulo: 'Software pecuario',
+        titulo: '<em>Software</em> pecuario',
         desarrolloContenidos: true,
       },
     ],
@@ -269,7 +269,7 @@ export default {
     {
       termino: 'Bretes',
       significado:
-        'también se conocen como calcetas. son pasadizos estrechos hechos generalmente de madera que se usan para conducir el ganado de un punto a otro dentro de las instalaciones.',
+        'también se conocen como calcetas, son pasadizos estrechos hechos generalmente de madera que se usan para conducir el ganado de un punto a otro dentro de las instalaciones.',
     },
     {
       termino: 'Doble propósito',

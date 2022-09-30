@@ -165,7 +165,7 @@
               p.ms-0.ms-lg-3 Amplíe la información sobre instalaciones pecuarias, visualizando los videos que encuentra en los materiales complementarios.
               .row
                 .col-auto
-                  a.anexo(href="https://www.youtube.com/embed/OQH0Tsy9NyU" target="_blank")
+                  a.anexo(href="https://www.youtube.com/watch?v=OQH0Tsy9NyU" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
@@ -782,7 +782,7 @@
                           | Partos al año.
                         li.mb_1 
                           i.fas.fa-angle-right
-                          | Peso
+                          | Peso.
                         li.mb_1 
                           i.fas.fa-angle-right
                           | Camadas/hembra/año.
@@ -842,71 +842,53 @@
                     td.h5(colspan="3") Unidad
                 tbody
                   tr
-                    td(colspan="2") <b>Especies menores (conejos - cuyes)</b>
+                    td(colspan="2") <b>Peces</b>
                     td(colspan="4")
                       ul.lista-ul--color.mb_1
                         li.mb_1 
                           i.fas.fa-angle-right
-                          | Edad destete.
+                          | Peso inicial.
                         li.mb_1 
                           i.fas.fa-angle-right
-                          | Peso crías al nacer.
-                        li.mb_1 
-                          i.fas.fa-angle-right
-                          | Número de crías al año.
-                        li.mb_1 
-                          i.fas.fa-angle-right
-                          | Partos al año.
-                        li.mb_1 
-                          i.fas.fa-angle-right
-                          | Peso.
-                        li.mb_1 
-                          i.fas.fa-angle-right
-                          | Camadas/hembra/año.
-                        li.mb_1 
-                          i.fas.fa-angle-right
-                          | Peso crías al destete.
+                          | Peso final.
                         li.mb_1 
                           i.fas.fa-angle-right
                           | Edad al sacrificio.
                         li.mb_1 
                           i.fas.fa-angle-right
-                          | Madurez sexual machos.
+                          | Densidad por metro cúbico.
                         li.mb_1 
                           i.fas.fa-angle-right
-                          | Madurez sexual hembras.
+                          | Ingesta total del individuo.
+                        li.mb_1
+                          i.fas.fa-angle-right
+                          | Longitud total final del individuo.
+                        li.mb_1 
+                          i.fas.fa-angle-right
+                          | Mortalidad.
                     td(colspan="3")
                       ul.lista-ul--color.mb_1
-                        li.mb_1 
-                          i.fas.fa-angle-right
-                          | Días
-                        li.mb_1 
-                          i.fas.fa-angle-right
-                          | Gramos
-                        li.mb_1 
-                          i.fas.fa-angle-right
-                          | Número de animales
-                        li.mb_1 
-                          i.fas.fa-angle-right
-                          | Número de partos
                         li.mb_1 
                           i.fas.fa-angle-right
                           | Kilogramos
                         li.mb_1 
                           i.fas.fa-angle-right
-                          | Número de camadas
+                          | Kilogramos
+                        li.mb_1 
+                          i.fas.fa-angle-right
+                          | Días
+                        li.mb_1 
+                          i.fas.fa-angle-right
+                          | Peces / m³
                         li.mb_1 
                           i.fas.fa-angle-right
                           | Gramos
                         li.mb_1 
                           i.fas.fa-angle-right
-                          | Días
+                          | Centímetros
                         li.mb_1 
                           i.fas.fa-angle-right
-                          | Días
-                        li.mb_1 
-                          i.fas.fa-angle-right
-                          | Días                                    
+                          | Porcentajes                              
                                                         
          
 

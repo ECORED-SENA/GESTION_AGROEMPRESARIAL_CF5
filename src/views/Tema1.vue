@@ -115,7 +115,7 @@
             
           tr
             td(colspan="3") <b>Ley 410 de 1997.</b>
-            td(colspan="9") Se aprueba el "Convenio 144 sobre consultas tripartitas para promover la aplicación de las normas internacionales del trabajo"
+            td(colspan="9") Se aprueba el "Convenio 144 sobre consultas tripartitas para promover la aplicación de las normas internacionales del trabajo".
             
           tr
             td(colspan="3") <b>Ley 704 de 2001.</b>
@@ -131,7 +131,7 @@
             
           tr
             td(colspan="3") <b>Ley 1595 de 2012.</b>
-            td(colspan="9") Se aprueba el "Convenio sobre el Trabajo Decente para las Trabajadoras y los Trabajadores Domésticos.
+            td(colspan="9") Se aprueba el "Convenio sobre el Trabajo Decente para las Trabajadoras y los Trabajadores Domésticos".
           
           tr
             td(colspan="3") <b>Ley 1610 de 2013.</b>
@@ -156,7 +156,7 @@
           tr
             td(colspan="3") <b>Ley 1846 de 2017.</b>
             td(colspan="9") Se modifican los artículos 160 y 161 del Código Sustantivo del Trabajo y se dictan otras disposiciones.
-    p.m-0.text-small <b><em>Nota. tomado del Ministerio de Trabajo (2022)</em></b>
+    p.m-0.text-small <b><em>Nota. Tomado del Ministerio de Trabajo (2022)</em></b>
 
     p.mt-4 Luego de conocer dichos elementos normativos, es importante que tenga en cuenta los siguientes aspectos, relacionados con la normatividad laboral colombiana:
 

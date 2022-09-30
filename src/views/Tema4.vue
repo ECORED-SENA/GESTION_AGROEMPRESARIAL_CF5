@@ -153,7 +153,7 @@ export default {
       {
         titulo: 'Responsables',
         texto:
-          'Este componente hace referencia a las dependencias que se encargará de desarrollar cada uno de los procesos estimados en el programa de producción. A partir de allí, cada departamento de la empresa desglosar las actividades hasta donde le sea posible con el fin de estimar las responsabilidades para cada uno de los miembros del equipo de trabajo.',
+          'Este componente hace referencia a las dependencias que se encargará de desarrollar cada uno de los procesos estimados en el programa de producción. A partir de allí, cada departamento de la empresa desglosa las actividades hasta donde le sea posible con el fin de estimar las responsabilidades para cada uno de los miembros del equipo de trabajo.',
         imagen: require('@/assets/curso/tema4/img08.png'),
       },
     ],

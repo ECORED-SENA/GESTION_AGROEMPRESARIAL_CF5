@@ -237,7 +237,7 @@
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 5.3 Almacenamiento y transporte de productos biológicos y medicamentos veterinarios
 
-    .row.mb-5
+    .row.mb-5.justify
       .col-lg-6(data-aos="fade-right")
         .cajon.color2.py-3.px-4.mt-3.mb-4       
           p.m-0 Los medicamentos son sustancias utilizadas para curar a los animales y su administración puede ser interna o externa. Por otra parte, los biológicos son sustancias utilizadas para la prevención de enfermedades, como por ejemplo las vacunas. Los medicamentos veterinarios que se utilizan y comercializan en Colombia, deben estar registrados ante el Instituto Colombiano Agropecuario (ICA) y deberán emplearse aplicando las buenas prácticas para el uso de medicamentos veterinarios.
@@ -344,7 +344,7 @@
     .titulo-quinto.color-acento-contenido
       h4.mb-4 Ángulos de aplicación Parenteral
 
-    ImagenInfograficaB.color-primario.mb-5(data-aos="fade-down-right")
+    ImagenInfograficaB.color-primario.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema5/imginfografica2.png', alt='Texto que describa la imagen')        
@@ -610,8 +610,9 @@
               p.ms-3 <b>Paso 5:</b> Informar el nombre del conductor y datos del vehículo.
               p.ms-3 <b>Paso 6:</b> Firmar recibo de satisfacción de la GSMI.
             td(colspan="6") 
-              p.ms-3 <b>Paso 1:</b> Ingresar al enlace https://www.ica.gov.co/servicios_linea/sigma/manuales.aspx para descargar el acta de confidencialidad de usuarios y obtener información adicional.
-              p.ms-3 <b>Paso 2:</b> Diligenciar el acta de confidencialidad.
+              span.ms-3.color_enlace <b>Paso 1:</b> 
+              | Ingresar al enlace. #[a(href="https://www.ica.gov.co/servicios_linea/sigma/manuales.aspx" target='_blank') <br> https://www.ica.gov.co/servicios_linea/sigma/manuales.aspx] para descargar el acta de confidencialidad de usuarios y obtener información adicional. 
+              p.ms-3.mt-4 <b>Paso 2:</b> Diligenciar el acta de confidencialidad.
               p.ms-3 <b>Paso 3:</b> Enviar el acta escaneada y el documento de identificación al correo electrónico mesadeayuda.sigma@ica.gov.co.
               p.ms-3 En un tiempo estimado de 24 horas, recibirá a vuelta de correo el usuario y contraseña para poder ingresar a Sigma en línea y continuar con el trámite para expedir la guía de movilización.
                           

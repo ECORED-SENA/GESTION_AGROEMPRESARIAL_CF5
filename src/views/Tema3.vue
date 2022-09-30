@@ -137,7 +137,7 @@
       #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
           h2 3.2 Programas de certificación
 
-      p.mb-5 Para hacer la implementación de las buenas prácticas ganaderas se debe realizar una planeación previa por escrito relacionando las actividades específicas de la unidad productiva, con el fin de ser utilizada como guía de cada proceso y este protocolo pueda ser verificado a través de una plantilla, la cual corrobore que la esta ha sido realizada de forma correcta. En general, los ítems que se deben tener en cuenta son:
+      p.mb-5 Para hacer la implementación de las buenas prácticas ganaderas se debe realizar una planeación previa por escrito relacionando las actividades específicas de la unidad productiva, con el fin de ser utilizada como guía de cada proceso y este protocolo pueda ser verificado a través de una plantilla, la cual corrobore que esta ha sido realizada de forma correcta. En general, los ítems que se deben tener en cuenta son:
 
       .row.justify-content-center
         .col-lg-9
@@ -150,22 +150,22 @@
                 ul.lista-ul--color.mb_1
                   li.mb_1 
                     i.fas.fa-angle-right
-                    | Incripción del predio ante el ICA. 
+                    | Inscripción del predio ante el ICA. 
                   li.mb_1 
                     i.fas.fa-angle-right
                     | Plan sanitario.
                   li.mb_1 
                     i.fas.fa-angle-right
-                    | Mantener areas de cuarentena, manejo de animales enfermos, control animales nuevos y enfermos.
+                    | Mantener áreas de cuarentena, manejo de animales enfermos, control animales nuevos y enfermos.
                   li.mb_1 
                     i.fas.fa-angle-right
-                    | Control y vacunacion de enfermedades de control.
+                    | Control y vacunación de enfermedades de control.
                   li.mb_1 
                     i.fas.fa-angle-right
                     | Plan de bioseguridad.
                   li.mb_1 
                     i.fas.fa-angle-right
-                    | Mantenimiento de areas vulnerables, manejo de instalaciones, materias primas, elementos y maquinaria en la producción.
+                    | Mantenimiento de áreas vulnerables, manejo de instalaciones, materias primas, elementos y maquinaria en la producción.
                   li.mb_1 
                     i.fas.fa-angle-right
                     | Control de plagas, insectos y roedores, animales extraños a la producción.
@@ -187,7 +187,7 @@
               ul.lista-ul--color.mb_1
                 li.mb_1 
                   i.fas.fa-angle-right
-                  | Plan de manejo ambiental manejo integral de residuos.
+                  | Plan de manejo ambiental y manejo integral de residuos.
                 li.mb_1 
                   i.fas.fa-angle-right
                   | Prevención, mitigación y reparación de riesgos.
@@ -301,7 +301,7 @@
               ul.lista-ul--color.mb_1
                 li.mb_1 
                   i.fas.fa-angle-right
-                  | Procedimiento de identificación y atención a cambios de coportamiento -bienestar animal.
+                  | Procedimiento de identificación y atención a cambios de comportamiento -bienestar animal.
             td(colspan="3") 
               ul.lista-ul--color.mb_1
                 li.mb_1 
@@ -317,7 +317,7 @@
               ul.lista-ul--color.mb_1
                 li.mb_1 
                   i.fas.fa-angle-right
-                  | Plan sanitario (manejo y aislamiento anímales enfermos).
+                  | Plan sanitario (manejo y aislamiento animales enfermos).
             td(colspan="3") 
               ul.lista-ul--color.mb_1
                 li.mb_1 
