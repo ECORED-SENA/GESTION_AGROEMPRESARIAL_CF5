@@ -610,8 +610,8 @@
               p.ms-3 <b>Paso 5:</b> Informar el nombre del conductor y datos del vehículo.
               p.ms-3 <b>Paso 6:</b> Firmar recibo de satisfacción de la GSMI.
             td(colspan="6") 
-              span.ms-3.color_enlace <b>Paso 1:</b> 
-              | Ingresar al enlace. #[a(href="https://www.ica.gov.co/servicios_linea/sigma/manuales.aspx" target='_blank') <br> https://www.ica.gov.co/servicios_linea/sigma/manuales.aspx] para descargar el acta de confidencialidad de usuarios y obtener información adicional. 
+              span.m-0.ms-3 <b>Paso 1:</b> Ingresar al enlace. 
+              p.ms-3.color_enlace #[a(href="https://www.ica.gov.co/servicios_linea/sigma/manuales.aspx" target='_blank') <br> https://www.ica.gov.co/servicios_linea/sigma/manuales.aspx] para descargar el acta de confidencialidad de usuarios y obtener información adicional. 
               p.ms-3.mt-4 <b>Paso 2:</b> Diligenciar el acta de confidencialidad.
               p.ms-3 <b>Paso 3:</b> Enviar el acta escaneada y el documento de identificación al correo electrónico mesadeayuda.sigma@ica.gov.co.
               p.ms-3 En un tiempo estimado de 24 horas, recibirá a vuelta de correo el usuario y contraseña para poder ingresar a Sigma en línea y continuar con el trámite para expedir la guía de movilización.

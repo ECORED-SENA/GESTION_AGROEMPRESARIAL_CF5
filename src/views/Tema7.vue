@@ -147,11 +147,11 @@
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/tema7/img14.svg')
-        figcaption.color_enlace Nota: #[a(href="https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf" target='_blank') https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf]  
+        figcaption Nota: #[a(href="https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf" target='_blank') https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf]  
       .col-lg-4 
         figure.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema7/img15.svg')
-        figcaption.color_enlace Nota: #[a(href="https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf" target='_blank') https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf]  
+        figcaption Nota: #[a(href="https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf" target='_blank') https://www.produccion-animal.com.ar/informacion_tecnica/cria/206-Descorne.pdf]  
 
     p.mb-5 Las técnicas de descorne, radican en el método que se va a aplicar para realizar el descornado existen diferentes métodos con diferentes aplicaciones y usos, pero con el mismo resultado final que es la eliminación de los cuernos en los animales. Los métodos más utilizados en las producciones son:
 
